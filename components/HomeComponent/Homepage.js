@@ -15,9 +15,11 @@ const Homepage = () => {
             <div className="lg:grid grid-cols-2  h-full w-full rounded-lg-5">
               <div className="rounded-lg-1">
                 <Image
-                  className="max-w-full bg-white"
+                  className="w-full h-full bg-white"
                   src="/images/CSI_social_post.jpg"
                   alt="image description"
+                  height={200}
+                  width={200}
                 />
               </div>
 
@@ -30,7 +32,7 @@ const Homepage = () => {
                 </p>
                 <div className="lg:text-end me-10 mt-5">
                   <a
-                    href="CSI2024"
+                    href="csi-2024"
                     className="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
                   >
                     View Details

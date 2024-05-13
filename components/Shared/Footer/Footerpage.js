@@ -5,13 +5,13 @@ const Footerpage = () => {
   return (
     <>
       <div className="bg-[#7E3F98] grid grid-cols-1 md:grid-cols-2 border-b border-white-500 p-3 ">
-        <div className="violet p-5">
+        <div className="p-5 ">
           <Image
-            className="max-w-full violet"
+            className="w-10/12  h-full"
             src="/images/logo-light-footer.png"
             alt="image description"
-            height={100}
-            width={100}
+            height={200}
+            width={200}
           />
         </div>
         <div className="text-white text-center md:text-right p-5 mt-11 md:mt-0">
