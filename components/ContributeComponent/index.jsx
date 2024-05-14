@@ -6,10 +6,8 @@ import Contributepage from "./Contributepage"
 const index = () => {
   return (
     <>
-      <Header />
+      
       <Contributepage />
-
-      <Footer />
     </>
   )
 }

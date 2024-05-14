@@ -8,10 +8,10 @@ import SDG02page from "./SDG02page"
 const index = () => {
   return (
     <>
-      <Header />
+      
       <SDGpage />
       <SDG02page />
-      <Footer />
+      
     </>
   )
 }

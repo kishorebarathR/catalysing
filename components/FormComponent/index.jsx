@@ -6,10 +6,10 @@ import Form from "./Form"
 const index = () => {
   return (
     <>
-      <Header />
+      
       <Form />
 
-      <Footer />
+      
     </>
   )
 }

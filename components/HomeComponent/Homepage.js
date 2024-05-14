@@ -6,8 +6,8 @@ const Homepage = () => {
     <>
       <div
         id="animation-carousel"
-        className="relative w-full h-screen mt-44 lg:px-5 mb-10"
-        data-carousel="slide" // Changed data-carousel to "slide"
+        className="relative w-full h-screen mt-[8em] lg:px-5 mb-10"
+        data-carousel="slide" 
       >
         <div className="relative h-screen overflow-hidden rounded-lg ">
           {/* Item 1 */}

@@ -7,11 +7,9 @@ import Unitepage from "./Unitepage"
 const index = () => {
   return (
     <>
-      <Header />
+      
       <Csi2024page />
       <Unitepage />
-
-      <Footer />
     </>
   )
 }

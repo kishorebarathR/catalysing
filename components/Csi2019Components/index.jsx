@@ -6,9 +6,9 @@ import Csi2019Compo from "./Csi2019Compo"
 const index = () => {
   return (
     <>
-      <Header />
+      
       <Csi2019Compo />
-      <Footer />
+      
     </>
   )
 }
