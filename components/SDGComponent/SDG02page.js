@@ -140,7 +140,7 @@ const SDG02page = () => {
             SDG Action Labs
           </h1>
 
-          <p class=" mt-5 mx-5">
+          <p class=" mt-5 lg:px-5">
             Each SDG would ideally be mapped to a group of interested members,
             with a chair appointed among them to preside over a Working Group.
             The members of each Working Group would be responsible for
@@ -152,10 +152,10 @@ const SDG02page = () => {
       </div>
 
       <div className="lg:flex justify-start items-start mt-10 ">
-        <div className="flex flex-col lg:flex-row  w-full ">
+        <div className="flex flex-col lg:flex-row lg:w-[1200px] lg:h-[450px]  ">
           <div>
             <Image
-              className="ms-3 rounded-2xl w-full"
+              className="ms-3 rounded-2xl w-full h-full"
               src="/images/who-what.png"
               alt="image description"
               width={200} height={200}
@@ -222,7 +222,7 @@ const SDG02page = () => {
 
           <div className="ml-auto">
             <Image
-              className="w-full lg:w-auto lg:ms-44 "
+              className="w-full  lg:ms-44 "
               src="/images/sdg-logo-lg.png"
               alt="image description"
               width={200} height={200}
@@ -230,6 +230,8 @@ const SDG02page = () => {
           </div>
         </div>
       </div>
+     
+     
       <div className="mx-5">
         <div class="flex flex-row justify-start mt-14 space-x-6 px-5 ">
           <div class="lg:flex items-start mt-10">
@@ -352,7 +354,9 @@ const SDG02page = () => {
       <div className="lg:flex justify-center items-center h-full mt-10">
         <div className="lg:flex flex-col lg:flex-row mt-10">
           <div className="lg:w-1/2 ">
-            <Image className="" src="/images/pcl-3.png" alt="image description" width={200} height={200}/>
+            <Image className=" w-full h-full"
+             src="/images/pcl-3.png"
+              alt="image description" width={200} height={200}/>
           </div>
 
           <div className="ml-4 lg:w-1/2 lg:px-14">

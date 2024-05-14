@@ -16,41 +16,45 @@ const SDGpage = () => {
           </div>
           <div>
             <Image
-              className=""
+              className="w-full lg:h-[700px] "
               src="/images/sdg-placeholder.png"
               alt="image description"
-              width={200} height={200}
+              width={200}
+              height={200}
             />
           </div>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row  justify-center items-center  ">
-      <div className="lg:flex justify-center items-center lg:mt-10 mb-5 ">
-        <div>
-          <Image
-            className="w-30 mx-3"
-            src="/images/sdg-3.svg"
+        <div className="flex justify-center items-center lg:mt-10 mb-5 ">
+          <div>
+            <Image
+              className="w-28 lg:mx-3"
+              src="/images/sdg-3.svg"
               alt="image description"
-              width={200} height={200}
-          />
-        </div>
-        <div>
-          <Image
-            className="w-36 mx-3"
-            src="/images/sdg-1.svg"
+              width={200}
+              height={200}
+            />
+          </div>
+          <div>
+            <Image
+              className="w-36 lg:mx-3"
+              src="/images/sdg-1.svg"
               alt="image description"
-              width={200} height={200}
-          />
-        </div>
-        <div>
-          <Image
-            className="w-36 mx-3"
-            src="/images/sdg-2.svg"
+              width={200}
+              height={200}
+            />
+          </div>
+          <div>
+            <Image
+              className="w-36 lg:mx-3"
+              src="/images/sdg-2.svg"
               alt="image description"
-              width={200} height={200}
-          />
+              width={200}
+              height={200}
+            />
+          </div>
         </div>
-      </div>
       </div>
 
       <div className="flex flex-col lg:flex-row  justify-center items-center  mt-20">
@@ -78,10 +82,11 @@ const SDGpage = () => {
         <div class="flex flex-col lg:flex-row lg:mt-10">
           <div class="w-full">
             <Image
-              className=" "
+              className="w-full lg:h-[700px] "
               src="/images/plc-2.png"
               alt="image description"
-              width={200} height={200}
+              width={200}
+              height={200}
             />
           </div>
           <div className="text-white lg:w-1/2 lg:mt-36 ">
@@ -90,7 +95,7 @@ const SDGpage = () => {
                 The <br></br>
                 <b>Journey</b>
                 <br></br>
-                <b>Ahead</b>
+                <b>Ahead</b>{" "}
               </h1>
               <p className="mt-3">
                 The event—a collaborative convergence of dynamic minds—is set to
@@ -117,22 +122,24 @@ const SDGpage = () => {
         <div className="flex flex-col lg:flex-row mt-10">
           <div className="w-full lg:w-1/2">
             <Image
-              className=" "
+              className="w-[1000px] lg:h-[620px] "
               src="/images/pcl-3.png"
               alt="image description"
-              width={200} height={200}
+              width={200}
+              height={200}
             />
           </div>
-          <div className="   ">
+          <div className="">
             <h1 className="text-black text-4xl ">
               <b>Objectives</b>
             </h1>
             <div className="mt-5 ">
               <Image
-                className=" "
+                className=" w-32"
                 src="/images/icon-1.png"
                 alt="image description"
-                width={200} height={200}
+                width={200}
+                height={200}
               />
               <p>
                 Take stock of India’s progress<p></p> towards the SDGs
@@ -141,10 +148,11 @@ const SDGpage = () => {
 
             <div>
               <Image
-                className="mt-8 "
+                className="mt-8 w-32 "
                 src="/images/icon-2.png"
                 alt="image description"
-                width={200} height={200}
+                width={200}
+                height={200}
               />
               <p>
                 Look for positive action and work<p></p>
@@ -154,10 +162,11 @@ const SDGpage = () => {
 
             <div>
               <Image
-                className="mt-8 "
+                className="mt-8 w-32 "
                 src="/images/icon-3.png"
                 alt="image description"
-                width={200} height={200}
+                width={200}
+                height={200}
               />
               <p>
                 Create a roadmap for accelerating<p></p>
@@ -176,10 +185,11 @@ const SDGpage = () => {
             </h1>
             <div className="mt-5 ">
               <Image
-                className=" "
+                className="w-32 "
                 src="/images/icon-1 (1).png"
                 alt="image description"
-                width={200} height={200}
+                width={200}
+                height={200}
               />
               <p>
                 Arrive at stakeholder consensus on how to achieve SDG 2030
@@ -189,10 +199,11 @@ const SDGpage = () => {
 
             <div>
               <Image
-                className="mt-8 "
+                className="mt-8 w-32 "
                 src="/images/icon-2.png"
                 alt="image description"
-                width={200} height={200}
+                width={200}
+                height={200}
               />
               <p>
                 Elevate Catalyst 2030’s brand and positioning as a Social
@@ -201,12 +212,13 @@ const SDGpage = () => {
               </p>
             </div>
           </div>
-          <div className="w-full ">
+          <div>
             <Image
-              className=" px-14"
+              className="w-[900px] lg:h-[620px] "
               src="/images/plc-3.png"
               alt="image description"
-              width={200} height={200}
+              width={200}
+              height={200}
             />
           </div>
         </div>
@@ -234,8 +246,12 @@ const SDGpage = () => {
 
       <div class="lg:flex flex-row justify-center mt-14 ">
         <div class="flex flex-col items-center justify-start lg:w-1/3  mt-10 ">
-          <Image class="" src="/images/icon-4.png" alt="image description"
-          width={200} height={200}
+          <Image
+            class="w-32"
+            src="/images/icon-4.png"
+            alt="image description"
+            width={200}
+            height={200}
           />
           <h1 class="text-xl text-black">
             <b>Access To Basic Services</b>
@@ -243,15 +259,25 @@ const SDGpage = () => {
         </div>
 
         <div class="flex flex-col items-center justify-start lg:w-1/3  mt-10">
-          <Image class="" src="/images/icon-5.png" alt="image description" width={200} height={200}/>
+          <Image
+            class="w-32"
+            src="/images/icon-5.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <h1 class="text-xl text-black">
             <b>Wasting And Overweight Children</b>
           </h1>
         </div>
 
         <div class="flex flex-col items-center justify-start lg:w-1/3  mt-10">
-          <Image class="" src="/images/icon-6.png" alt="image description"
-          width={200} height={200}
+          <Image
+            class="w-32"
+            src="/images/icon-6.png"
+            alt="image description"
+            width={200}
+            height={200}
           />
           <h1 class="text-xl text-black">
             <b>Anaemia</b>
@@ -261,8 +287,12 @@ const SDGpage = () => {
 
       <div class="lg:flex flex-row justify-center mt-14 ">
         <div class="flex flex-col items-center justify-start lg:w-1/3  mt-10">
-          <Image class="" src="/images/icon-7.png" alt="image description"
-          width={200} height={200}
+          <Image
+            class="w-32"
+            src="/images/icon-7.png"
+            alt="image description"
+            width={200}
+            height={200}
           />
           <h1 class="text-xl text-black">
             <b>Child Marriage</b>
@@ -270,8 +300,12 @@ const SDGpage = () => {
         </div>
 
         <div class="flex flex-col items-center justify-start lg:w-1/3  mt-10">
-          <Image class="" src="/images/icon-8.png" alt="image description"
-          width={200} height={200}
+          <Image
+            class="w-32"
+            src="/images/icon-8.png"
+            alt="image description"
+            width={200}
+            height={200}
           />
           <h1 class="text-xl text-black">
             <b>Partner Violence</b>
@@ -279,8 +313,12 @@ const SDGpage = () => {
         </div>
 
         <div class="flex flex-col items-center justify-start lg:w-1/3 mt-10">
-          <Image class="" src="/images/icon-9.png" alt="image description"
-          width={200} height={200}
+          <Image
+            class="w-32"
+            src="/images/icon-9.png"
+            alt="image description"
+            width={200}
+            height={200}
           />
           <h1 class="text-xl text-black">
             <b>Tobacco Use</b>
@@ -290,17 +328,18 @@ const SDGpage = () => {
 
       <div class="flex flex-row justify-center mt-14 ">
         <div class="flex flex-col items-center justify-start w-1/3  mt-10">
-          <Image class="" src="/images/icon-10.png" alt="image description"
-          width={200} height={200}
+          <Image
+            class="w-32"
+            src="/images/icon-10.png"
+            alt="image description"
+            width={200}
+            height={200}
           />
           <h1 class="text-xl text-black">
             <b>Modern Contraceptive Use</b>
           </h1>
         </div>
       </div>
-
-
-      
     </>
   )
 }
