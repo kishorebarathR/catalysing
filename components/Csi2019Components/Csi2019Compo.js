@@ -108,19 +108,19 @@ const Csi2019Compo = () => {
 
       <div class="lg:flex justify-center items-center h-full lg:mt-64 ">
         <div class="flex flex-col lg:flex-row lg:mt-14">
-          <div class="lg:w-full">
+          <div class="lg:w-full h-full">
             <Image
-              className="lg:-mt-56"
+              class="object-cover w-full h-full lg:-mt-44 "
               src="/images/landscape.png"
               alt="image description"
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
           </div>
 
           <div className="text-white lg:w-1/2 lg:-mt-12 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:end-20 ">
-              <div class="w-full">
+              <div class="w-full ">
                 <Image
                   className="lg:ms-64 px-2 w-40 lg:-mt-24"
                   src="/images/CSI_Changes.png"
@@ -150,7 +150,7 @@ const Csi2019Compo = () => {
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:start-20 mt-20 ">
               <div class="w-full">
                 <Image
-                  className="w-40 lg:-ms-28 px-2 lg:-mt-14"
+                  className="w-40 lg:-ms-28 px-2 lg:-mt-14 "
                   src="/images/CSI_Collaborate.png"
                   alt="image description"
                   height={100}
@@ -172,11 +172,11 @@ const Csi2019Compo = () => {
 
           <div class="w-full">
             <Image
-              className=" lg:-mt-14 mb-10"
+              className=" lg:-mt-14 mb-14  object-cover w-full h-full"
               src="/images/solution-circles.png"
               alt="image description"
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
           </div>
         </div>
@@ -186,11 +186,11 @@ const Csi2019Compo = () => {
         <div class="flex flex-col lg:flex-row mt-14">
           <div class="w-full">
             <Image
-              className="-mt-72 absolute"
+              className="-mt-44  object-cover w-full h-full"
               src="/images/challengers.png"
               alt="image description"
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
           </div>
 
@@ -198,11 +198,11 @@ const Csi2019Compo = () => {
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:end-20 ">
               <div class="w-full">
                 <Image
-                  className="lg:ms-64 px-2 w-40 lg:-mt-24"
+                  className="lg:ms-64 px-2 w-40 lg:-mt-24 "
                   src="/images/CSI_Disability.png"
                   alt="image description"
-                  height={100}
-                  width={100}
+                  height={200}
+                  width={200}
                 />
               </div>
               <h1 className="text-4xl  text-white">Challengers</h1>
@@ -220,16 +220,16 @@ const Csi2019Compo = () => {
       </div>
 
       <div class="lg:flex justify-center items-center h-full ">
-        <div class="flex flex-col lg:flex-row lg:mt-60">
+        <div class="flex flex-col lg:flex-row lg:mt-44">
           <div className="text-white lg:w-1/2 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:start-20 mt-20 ">
               <div class="w-full">
                 <Image
-                  className="w-40 lg:-ms-32 px-2 -mt-14"
+                  className="w-40 lg:-ms-32 px-2 -mt-14 "
                   src="/images/CSI_family.png"
                   alt="image description"
-                  height={100}
-                  width={100}
+                  height={200}
+                  width={200}
                 />
               </div>
               <h1 className="text-4xl violet text-white ">Marketplace</h1>
@@ -247,11 +247,11 @@ const Csi2019Compo = () => {
 
           <div class="w-full">
             <Image
-              className=" -mt-14 mb-10"
+              className=" -mt-14 mb-10 object-cover w-full h-full"
               src="/images/marketplace.png"
               alt="image description"
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
           </div>
         </div>
@@ -261,11 +261,11 @@ const Csi2019Compo = () => {
         <div class="flex flex-col lg:flex-row mt-14">
           <div class="w-full">
             <Image
-              className="-mt-72 absolute"
+              className="-mt-44 object-cover w-full h-full"
               src="/images/legends.png"
               alt="image description"
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
           </div>
 
@@ -299,11 +299,11 @@ const Csi2019Compo = () => {
           <div className="flex flex-col lg:flex-row  lg:w-1/2">
             <div className="w-full ">
               <Image
-                className="px-3 relative top-11"
+                className="px-3 relative top-11 object-cover w-full h-full"
                 src="/images/image004 (1).jpg"
                 alt="image description"
-                height={100}
-                width={100}
+                height={200}
+                width={200}
               />
 
               <button
@@ -524,11 +524,11 @@ const Csi2019Compo = () => {
 
           <div className="lg:w-1/2 ">
             <Image
-              className="px-3 relative top-11"
+              className="px-3 relative top-11 object-cover w-full h-full"
               src="/images/image004 (1)0.jpg"
               alt="image description"
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
 
             <button
@@ -699,24 +699,26 @@ const Csi2019Compo = () => {
         </div>
       </div>
 
-      <div class="flex justify-center items-center h-full ">
-        <div class="flex flex-col lg:flex-row  ">
-          <div className="lg:w-1/4   mb-5 ">
+      <div class="lg:flex justify-center items-center h-full ">
+        <div class="flex flex-col lg:flex-row px-10 ">
+          <div className="lg:w-1/2   ">
             <Image
-              className="px-3 "
+              className="px-3 object-cover w-full h-full "
               src="/images/video-cover2.png"
               alt="image description"
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
             <Image
               data-modal-target="default-modal3"
               data-modal-toggle="default-modal3"
               className="text-white
               height={100}
-              width={100} relative bottom-24 lg:ms-32 w-14 "
+              width={100} relative bottom-32 ms-32 w-14 "
               src="/images/play-circle-filled.svg"
               alt="image description"
+              height={200}
+              width={200}
             />
 
             <div
@@ -782,22 +784,24 @@ const Csi2019Compo = () => {
             </div>
           </div>
 
-          <div className="lg:w-1/4    ">
+          <div className="lg:w-1/2   ">
             <Image
-              className="px-3 "
+              className="px-3 object-cover w-full h-full"
               src="/images/video-cover1.png"
               alt="image description"
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
             <Image
               data-modal-target="default-modal4"
               data-modal-toggle="default-modal4"
               className="text-white
               height={100}
-              width={100} relative bottom-24 lg:ms-32 w-14 "
+              width={100} relative bottom-32 ms-32 w-14 "
               src="/images/play-circle-filled.svg"
               alt="image description"
+              height={200}
+              width={200}
             />
 
             <div
@@ -863,22 +867,22 @@ const Csi2019Compo = () => {
             </div>
           </div>
 
-          <div className="lg:w-1/4   ">
+          <div className="lg:w-1/2   ">
             <Image
-              className="px-3 "
+              className="px-3 object-cover w-full h-full "
               src="/images/video-cover3.png"
               alt="image description"
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
             <Image
               data-modal-target="default-modal5"
               data-modal-toggle="default-modal5"
-              className="text-white
-              height={100}
-              width={100} relative bottom-24 lg:ms-32 w-14 "
+              className="text-white relative bottom-32 ms-32 w-14 "
               src="/images/play-circle-filled.svg"
               alt="image description"
+              height={200}
+              width={200}
             />
 
             <div
@@ -944,29 +948,29 @@ const Csi2019Compo = () => {
             </div>
           </div>
 
-          <div className="lg:w-1/4   ">
+          <div className="lg:w-1/2  ">
             <Image
-              className="px-3 "
-              src="/images/video-cover4.png"
+              className="px-3 object-cover w-full h-full "
+              src="/images/video-cover4.png "
               alt="image description"
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
             <Image
               data-modal-target="default-modal6"
               data-modal-toggle="default-modal6"
-              className="text-white
-              height={100}
-              width={100}  lg:ms-32 relative bottom-24 w-14   "
+              className="text-white  ms-32 relative bottom-32 w-14   "
               src="/images/play-circle-filled.svg"
               alt="image description"
+              height={200}
+              width={200}
             />
 
             <div
               id="default-modal6"
               tabindex="-1"
               aria-hidden="true"
-              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+              className="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
             >
               <div className="relative p-4 w-full max-w-2xl max-h-full">
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
@@ -1027,7 +1031,7 @@ const Csi2019Compo = () => {
         </div>
       </div>
 
-      <div className="text-center mb-10">
+      <div className="text-center mt-10 mb-10">
         <a
           href="CSI2024"
           class="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"

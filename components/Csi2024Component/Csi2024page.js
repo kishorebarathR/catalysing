@@ -4,12 +4,14 @@ import Image from "next/image"
 const Csi2024page = () => {
   return (
     <>
-      <div class="lg:grid grid-cols-2 m-5 rounded-lg-5 mt-52">
+      <div class="lg:grid grid-cols-2 m-5 rounded-lg-5 lg:mt-64">
         <div class="rounded-lg-1">
           <Image
-            className="max-w-full bg-white"
+            className="w-full bg-white"
             src="/images/CSI_social_post.jpg"
             alt="image description"
+            height={200}
+            width={200}
           />
         </div>
 
@@ -23,24 +25,27 @@ const Csi2024page = () => {
         </div>
       </div>
 
-      <div class="lg:flex justify-center items-center h-full ">
-        <div class="flex flex-col lg:flex-row mt-14">
-          <div class="w-full">
+      <div className="lg:flex justify-center items-center  h-full ">
+        <div className="flex flex-col lg:flex-row mt-24">
+          <div class="w-full h-full">
             <Image
-              className="lg:mt-60
-               "
+              class="object-cover w-full h-full lg:mt-64"
               src="/images/placeholder.png"
               alt="image description"
+              height={200}
+              width={200}
             />
           </div>
 
           <div className="text-white lg:w-1/2 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:end-20 ">
-              <div class="w-full">
+              <div className="w-full">
                 <Image
                   className="lg:ms-64 px-2 w-40 lg:-mt-24"
                   src="/images/CSI_growth.png"
                   alt="image description"
+                  height={200}
+                  width={200}
                 />
               </div>
               <h1 className="text-4xl violet text-white">
@@ -100,15 +105,17 @@ const Csi2024page = () => {
         </div>
       </div>
 
-      <div class="lg:flex justify-center items-center h-full ">
+      <div class="lg:flex justify-center items-center h-full  ">
         <div class="flex flex-col lg:flex-row mt-32">
           <div className="text-white lg:w-1/2 ">
-            <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:start-20  ">
+            <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:start-20  lg:mt-24">
               <div class="w-full">
                 <Image
                   className="w-40 lg:-ms-28 px-2 lg:-mt-24"
                   src="/images/CSI_Togetherness.png"
                   alt="image description"
+                  height={200}
+                  width={200}
                 />
               </div>
               <h1 className="text-4xl violet text-white ">
@@ -128,11 +135,13 @@ const Csi2024page = () => {
             </div>
           </div>
 
-          <div class="w-full">
+          <div className="w-full h-full">
             <Image
-              className=" -mt-14 mb-10"
+              className="object-cover w-full h-full"
               src="/images/placeholder.png"
               alt="image description"
+              height={200}
+              width={200}
             />
           </div>
         </div>

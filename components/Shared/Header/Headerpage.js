@@ -14,13 +14,15 @@ const Homepage = () => {
       <div className="lg:grid grid-cols-2 py-5 ms-7  rounded-lg-1 bg-white  rounded-2xl fixed top-3 z-50 flex justify-center items-center">
         <div className="bg-white">
           <a href="/">
-            <Image
-              src="/images/catalysing_logo.png"
-              className="w-10/12 ps-4 bg-white"
-              alt="image description"
-              height={200}
-              width={200}
-            />
+            <div class="w-10/12 h-full">
+              <Image
+                class="object-cover w-full h-full"
+                src="/images/catalysing_logo.png"
+                alt="image description"
+                height={200}
+                width={200}
+              />
+            </div>
           </a>
         </div>
 

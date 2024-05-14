@@ -11,6 +11,8 @@ const Unitepage = () => {
               className="mx-5 mb-5 lg:-mt-24"
               src="/images/CSI_Solutions Circle.png"
               alt="image description"
+              height={200}
+              width={200}
             />
           </div>
         </div>
@@ -50,6 +52,8 @@ const Unitepage = () => {
               className="mx-5 mb-5 "
               src="/images/CSI_Inner development circle.png"
               alt="image description"
+              height={200}
+              width={200}
             />
           </div>
         </div>
@@ -76,6 +80,8 @@ const Unitepage = () => {
               className="mx-5 mb-5 lg:-mt-14"
               src="/images/CSI_networks.png"
               alt="image description"
+              height={200}
+              width={200}
             />
           </div>
         </div>

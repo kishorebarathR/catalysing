@@ -16,7 +16,7 @@ const Contributepage = () => {
         <ul className="ms-5 space-y-2 list-disc ps-4 mt-5">
           <li>
             <b>
-              {" "}
+        
               Non-Governmental Organisations and Civil Society Organisations:{" "}
             </b>
             NGOs and CSOs can play a vital role by engaging as collaborators and
@@ -68,9 +68,11 @@ const Contributepage = () => {
           <div class="lg:flex flex-col lg:flex-row  ">
             <div class="w-full">
               <Image
-                className="px-3"
-                src="/images/image004 (1).jpg"
+                className="px-3  object-cover w-full h-full"
+                src="/images/image004 (1).jpg "
                 alt="image description"
+                height={200}
+                width={200}
               />
             </div>
           </div>
@@ -78,9 +80,11 @@ const Contributepage = () => {
             <div className="text-white  ">
               <div class="w-full">
                 <Image
-                  className=" px-3"
+                  className=" px-3 object-cover w-full h-full"
                   src="/images/image004 (1)0.jpg"
                   alt="image description"
+                  height={200}
+                  width={200}
                 />
               </div>
             </div>
