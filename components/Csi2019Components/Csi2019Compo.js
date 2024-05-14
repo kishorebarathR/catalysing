@@ -39,7 +39,7 @@ const Csi2019Compo = () => {
             onclick="window.location.href='signup'"
             className="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
           >
-            Play the Vedio
+            Play the Video
           </button>
 
           <div
@@ -125,8 +125,8 @@ const Csi2019Compo = () => {
                   className="lg:ms-64 px-2 w-40 lg:-mt-24"
                   src="/images/CSI_Changes.png"
                   alt="image description"
-                  height={100}
-                  width={100}
+                  height={200}
+                  width={200}
                 />
               </div>
               <h1 className="text-4xl  text-white">Landscape</h1>
@@ -153,8 +153,8 @@ const Csi2019Compo = () => {
                   className="w-40 lg:-ms-28 px-2 lg:-mt-14 "
                   src="/images/CSI_Collaborate.png"
                   alt="image description"
-                  height={100}
-                  width={100}
+                  height={200}
+                  width={200}
                 />
               </div>
               <h1 className="text-4xl violet text-white ">Solution Circles</h1>
@@ -273,11 +273,11 @@ const Csi2019Compo = () => {
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:end-20 ">
               <div class="w-full">
                 <Image
-                  className="lg:ms-64 px-2 w-40 lg:-mt-24"
+                  className="lg:ms-64 px-2 w-100 lg:-mt-24"
                   src="/images/CSI_Government.png"
                   alt="image description"
-                  height={100}
-                  width={100}
+                  height={200}
+                  width={200}
                 />
               </div>
               <h1 className="text-4xl  text-white">Legends</h1>
@@ -293,8 +293,8 @@ const Csi2019Compo = () => {
         </div>
       </div>
 
-      <div className=" lg:mx-10 mb-24">
-        <p className="text-4xl mt-44 font-semibold ms-5">Gallery</p>
+      <div className=" lg:mx-10">
+        <p className="text-4xl  font-semibold ms-5">Gallery</p>
         <div className="lg:flex justify-center items-center h-full mt-5 ">
           <div className="flex flex-col lg:flex-row  lg:w-1/2">
             <div className="w-full ">
@@ -358,8 +358,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3"
                             src="/images/image001.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full">
@@ -367,8 +367,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3"
                             src="/images/image002.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full ">
@@ -376,8 +376,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3 "
                             src="/images/image003.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full ">
@@ -385,8 +385,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3 "
                             src="/images/image004.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                       </div>
@@ -399,8 +399,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3"
                             src="/images/image005.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full">
@@ -408,8 +408,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3"
                             src="/images/image006.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full ">
@@ -417,8 +417,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3 "
                             src="/images/image007.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full ">
@@ -426,8 +426,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3 "
                             src="/images/image008.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                       </div>
@@ -440,8 +440,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3"
                             src="/images/image009.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full">
@@ -449,8 +449,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3"
                             src="/images/image010.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div class="w-full ">
@@ -458,8 +458,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3 "
                             src="/images/image011.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full ">
@@ -467,8 +467,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3 "
                             src="/images/image012.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                       </div>
@@ -481,8 +481,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3"
                             src="/images/image013.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full">
@@ -490,8 +490,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3"
                             src="/images/image014.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full ">
@@ -499,8 +499,8 @@ const Csi2019Compo = () => {
                             className="mt-5 px-3 "
                             src="/images/image015.jpg"
                             alt="image description"
-                            height={100}
-                            width={100}
+                            height={200}
+                            width={200}
                           />
                         </div>
                         <div className="w-full "></div>
@@ -583,8 +583,8 @@ const Csi2019Compo = () => {
                           className="mt-5 px-3"
                           src="/images/image0001 (1).jpg"
                           alt="image description"
-                          height={100}
-                          width={100}
+                          height={200}
+                          width={200}
                         />
                       </div>
                       <div class="w-full">
@@ -592,8 +592,8 @@ const Csi2019Compo = () => {
                           className="mt-5 px-3"
                           src="/images/image0002 (1).jpg"
                           alt="image description"
-                          height={100}
-                          width={100}
+                          height={200}
+                          width={200}
                         />
                       </div>
                       <div class="w-full ">
@@ -601,8 +601,8 @@ const Csi2019Compo = () => {
                           className="mt-5 px-3 "
                           src="/images/image0003 (1).jpg"
                           alt="image description"
-                          height={100}
-                          width={100}
+                          height={200}
+                          width={200}
                         />
                       </div>
                       <div class="w-full ">
@@ -610,8 +610,8 @@ const Csi2019Compo = () => {
                           className="mt-5 px-3 "
                           src="/images/image004 (1)0.jpg"
                           alt="image description"
-                          height={100}
-                          width={100}
+                          height={200}
+                          width={200}
                         />
                       </div>
                     </div>
@@ -624,8 +624,8 @@ const Csi2019Compo = () => {
                           className="mt-5 px-3"
                           src="/images/image005 (1).jpg"
                           alt="image description"
-                          height={100}
-                          width={100}
+                          height={200}
+                          width={200}
                         />
                       </div>
                       <div class="w-full">
@@ -633,8 +633,8 @@ const Csi2019Compo = () => {
                           className="mt-5 px-3"
                           src="/images/image006 (2).jpg"
                           alt="image description"
-                          height={100}
-                          width={100}
+                          height={200}
+                          width={200}
                         />
                       </div>
                       <div class="w-full ">
@@ -642,8 +642,8 @@ const Csi2019Compo = () => {
                           className="mt-5 px-3 "
                           src="/images/image0007 (1).jpg"
                           alt="image description"
-                          height={100}
-                          width={100}
+                          height={200}
+                          width={200}
                         />
                       </div>
                       <div class="w-full ">
@@ -651,8 +651,8 @@ const Csi2019Compo = () => {
                           className="mt-5 px-3 "
                           src="/images/image0008 (1).jpg"
                           alt="image description"
-                          height={100}
-                          width={100}
+                          height={200}
+                          width={200}
                         />
                       </div>
                     </div>
@@ -665,8 +665,8 @@ const Csi2019Compo = () => {
                           className="mt-5 px-3"
                           src="/images/image0009 (1).jpg"
                           alt="image description"
-                          height={100}
-                          width={100}
+                          height={200}
+                          width={200}
                         />
                       </div>
                       <div class="w-full">
@@ -674,12 +674,11 @@ const Csi2019Compo = () => {
                           className="mt-5 px-3"
                           src="/images/image0009 (1).jpg"
                           alt="image description"
-                          height={100}
-                          width={100}
+                          height={200}
+                          width={200}
                         />
                       </div>
-                      <div className="w-full "></div>
-                      <div className="w-full "></div>
+                   
                     </div>
                   </div>
 
@@ -699,7 +698,7 @@ const Csi2019Compo = () => {
         </div>
       </div>
 
-      <div class="lg:flex justify-center items-center h-full ">
+      <div class="lg:flex justify-center items-center h-full mt-24">
         <div class="flex flex-col lg:flex-row px-10 ">
           <div className="lg:w-1/2   ">
             <Image
@@ -712,9 +711,7 @@ const Csi2019Compo = () => {
             <Image
               data-modal-target="default-modal3"
               data-modal-toggle="default-modal3"
-              className="text-white
-              height={100}
-              width={100} relative bottom-32 ms-32 w-14 "
+              className="text-white relative bottom-32 ms-32 w-14 "
               src="/images/play-circle-filled.svg"
               alt="image description"
               height={200}
@@ -731,7 +728,7 @@ const Csi2019Compo = () => {
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
                   <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                      vedio
+                      Video
                     </h3>
                     <button
                       type="button"
@@ -795,9 +792,7 @@ const Csi2019Compo = () => {
             <Image
               data-modal-target="default-modal4"
               data-modal-toggle="default-modal4"
-              className="text-white
-              height={100}
-              width={100} relative bottom-32 ms-32 w-14 "
+              className="text-white relative bottom-32 ms-32 w-14 "
               src="/images/play-circle-filled.svg"
               alt="image description"
               height={200}
@@ -814,7 +809,7 @@ const Csi2019Compo = () => {
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
                   <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                      vedio
+                      Video
                     </h3>
                     <button
                       type="button"
@@ -878,7 +873,7 @@ const Csi2019Compo = () => {
             <Image
               data-modal-target="default-modal5"
               data-modal-toggle="default-modal5"
-              className="text-white relative bottom-32 lg:ms-32 w-14 "
+              className="text-white relative bottom-32 ms-32 w-14 "
               src="/images/play-circle-filled.svg"
               alt="image description"
               height={200}
@@ -895,7 +890,7 @@ const Csi2019Compo = () => {
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
                   <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                      vedio
+                      Video
                     </h3>
                     <button
                       type="button"
@@ -976,7 +971,7 @@ const Csi2019Compo = () => {
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
                   <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                      vedio
+                      Video
                     </h3>
                     <button
                       type="button"
