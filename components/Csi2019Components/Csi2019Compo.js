@@ -951,7 +951,7 @@ const Csi2019Compo = () => {
           <div className="lg:w-1/2  ">
             <Image
               className="px-3 object-cover w-full h-full "
-              src="/images/video-cover1.png "
+              src="/images/video-cover3.png"
               alt="image description"
               height={200}
               width={200}
