@@ -878,7 +878,7 @@ const Csi2019Compo = () => {
             <Image
               data-modal-target="default-modal5"
               data-modal-toggle="default-modal5"
-              className="text-white relative bottom-32 ms-32 w-14 "
+              className="text-white relative bottom-32 lg:ms-32 w-14 "
               src="/images/play-circle-filled.svg"
               alt="image description"
               height={200}
@@ -951,7 +951,7 @@ const Csi2019Compo = () => {
           <div className="lg:w-1/2  ">
             <Image
               className="px-3 object-cover w-full h-full "
-              src="/images/video-cover4.png "
+              src="/images/video-cover04.png "
               alt="image description"
               height={200}
               width={200}
@@ -959,7 +959,7 @@ const Csi2019Compo = () => {
             <Image
               data-modal-target="default-modal6"
               data-modal-toggle="default-modal6"
-              className="text-white  ms-32 relative bottom-32 w-14   "
+              className="text-white  lg:ms-32 relative bottom-32 w-14   "
               src="/images/play-circle-filled.svg"
               alt="image description"
               height={200}
