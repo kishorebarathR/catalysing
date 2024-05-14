@@ -3,7 +3,7 @@ import React from "react"
 const Aboutpage = () => {
   return (
     <>
-      <div className="m-3 p-2">
+      <div className="m-3 p-2 ">
         <h2 className=" text-4xl text-[#7E3F98]">
           <b className="">About</b>
         </h2>
@@ -52,8 +52,8 @@ const Aboutpage = () => {
         <h2 className=" text-4xl mt-16 text-[#7E3F98]">
           <b className="txt-violet">Conversations Cafe</b>
         </h2>
-        <div class="lg:grid grid-cols-3 mt-10 ">
-          <div class="">
+        <div className="lg:grid grid-cols-3 mt-10 ">
+          <div className="">
             <iframe
               width="400"
               height="221"
@@ -65,7 +65,7 @@ const Aboutpage = () => {
               allowfullscreen
             ></iframe>{" "}
           </div>
-          <div class="">
+          <div className="">
             <iframe
               width="400"
               height="221"
@@ -77,7 +77,7 @@ const Aboutpage = () => {
               allowfullscreen
             ></iframe>
           </div>
-          <div class="">
+          <div className="">
             <iframe
               width="400"
               height="221"
@@ -91,8 +91,8 @@ const Aboutpage = () => {
           </div>
         </div>
 
-        <div class="lg:grid grid-cols-3 mt-5 mb-5">
-          <div class="">
+        <div className="lg:grid grid-cols-3 mt-5 mb-5">
+          <div className="">
             <iframe
               width="400"
               height="221"
@@ -104,7 +104,7 @@ const Aboutpage = () => {
               allowfullscreen
             ></iframe>
           </div>
-          <div class="">
+          <div className="">
             <iframe
               width="400"
               height="221"

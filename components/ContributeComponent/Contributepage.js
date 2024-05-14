@@ -57,40 +57,40 @@ const Contributepage = () => {
       <div className="text-center mt-10">
         <a
           href="signup"
-          class="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
+          className="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
         >
           Interest Form: CSI 2024
         </a>
       </div>
-
-      <div className="  lg:mx-10 mt-14 mb-10">
-        <div class="lg:flex justify-center items-center h-full ">
-          <div class="lg:flex flex-col lg:flex-row  ">
-            <div class="w-full">
-              <Image
-                className="px-3  object-cover w-full h-full"
-                src="/images/image004 (1).jpg "
-                alt="image description"
-                height={200}
-                width={200}
-              />
-            </div>
-          </div>
-          <div class="lg:flex flex-col lg:flex-row  ">
-            <div className="text-white  ">
-              <div class="w-full">
-                <Image
-                  className=" px-3 object-cover w-full h-full"
-                  src="/images/image004 (1)0.jpg"
-                  alt="image description"
-                  height={200}
-                  width={200}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="lg:mx-10 mt-14 mb-10">
+  <div className="lg:flex justify-center items-center h-full">
+    <div className="lg:flex flex-col lg:flex-row">
+      <div className="w-full">
+        <Image
+          className="object-cover w-full h-full px-2"
+          src="/images/image004 (1).jpg"
+          alt="image description"
+          layout="responsive"
+          width={200}
+          height={200}
+        />
       </div>
+    </div>
+    <div className="lg:flex flex-col lg:flex-row px-2">
+      <div className="w-full">
+        <Image
+          className="object-cover w-full h-full"
+          src="/images/image004 (1)0.jpg"
+          alt="image description"
+          layout="responsive"
+          width={200}
+          height={200}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
     </>
   )
 }

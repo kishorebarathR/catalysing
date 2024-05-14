@@ -4,8 +4,8 @@ import Image from "next/image"
 const Csi2024page = () => {
   return (
     <>
-      <div class="lg:grid grid-cols-2 m-5 rounded-lg-5 lg:mt-64">
-        <div class="rounded-lg-1">
+      <div className="lg:grid grid-cols-2 m-5 rounded-lg-5 lg:mt-64">
+        <div className="rounded-lg-1">
           <Image
             className="w-full bg-white"
             src="/images/CSI_social_post.jpg"
@@ -16,7 +16,7 @@ const Csi2024page = () => {
         </div>
 
         <div className="flex items-middle justify-center flex-col  bg-[#4B2361]">
-          <p class=" p-5 text-5xl  text-white rounded-lg-5">
+          <p className=" p-5 text-5xl  text-white rounded-lg-5">
             1st - 2nd August, 2024,
           </p>
           <p className=" p-5 text-5xl text-end text-white me-10 mb-0 ">
@@ -27,9 +27,9 @@ const Csi2024page = () => {
 
       <div className="lg:flex justify-center items-center  h-full ">
         <div className="flex flex-col lg:flex-row mt-24">
-          <div class="w-full h-full">
+          <div className="w-full h-full">
             <Image
-              class="object-cover w-full h-full lg:mt-64"
+              className="object-cover w-full h-full lg:mt-64"
               src="/images/placeholder.png"
               alt="image description"
               height={200}
@@ -105,8 +105,8 @@ const Csi2024page = () => {
         </div>
       </div>
 
-      <div class="lg:flex justify-center items-center h-full  ">
-        <div class="flex flex-col lg:flex-row mt-32">
+      <div className="lg:flex justify-center items-center h-full  ">
+        <div className="flex flex-col lg:flex-row mt-32">
           <div className="text-white lg:w-1/2 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:start-20  lg:mt-24">
               <div class="w-full">

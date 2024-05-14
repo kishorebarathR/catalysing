@@ -65,9 +65,9 @@ const SDGpage = () => {
           </h1>
         </div>
       </div>
-      <div class="container mx-auto lg:p-5 mt-6">
-        <div class="text-black text-center lg:text-left">
-          <p class="p-5 lg:mx-32">
+      <div className="container mx-auto lg:p-5 mt-6">
+        <div className="text-black text-center lg:text-left">
+          <p className="p-5 lg:mx-32">
             As we approach 2030, the urgency to foster an environment conducive
             to transformative social enterprises, equitable resource
             mobilisation, and locally-led development has never been more
@@ -224,118 +224,118 @@ const SDGpage = () => {
         </div>
       </div>
 
-      <div class="lg:flex flex-col justify-center items-center lg:mt-24">
-        <div class="text-black text-center">
-          <h1 class="l-title text-5xl mx-4 lg:mx-96 text-black relative">
+      <div className="lg:flex flex-col justify-center items-center lg:mt-24">
+        <div className="text-black text-center">
+          <h1 className="l-title text-5xl mx-4 lg:mx-96 text-black relative">
             <b>Reinventing</b>
           </h1>
-          <h1 class="text-5xl mx-4 lg:mx-96 text-black">the Conference</h1>
-          <p class="text-xl mt-5 mx-4">
+          <h1 className="text-5xl mx-4 lg:mx-96 text-black">the Conference</h1>
+          <p className="text-xl mt-5 mx-4">
             Progress on SDG Indicators in 707 districts of India (Midline
             Assessment using NFHS 2016 and 2021)
           </p>
-          <p class="mt-2 mx-4">
+          <p className="mt-2 mx-4">
             India is trailing behind in achieving more than 50% of indicators
             under the (SDGs) India has fallen behind on 19 of 33 indicators
           </p>
-          <p class="text-xl font-semibold mt-3 mx-4">
+          <p className="text-xl font-semibold mt-3 mx-4">
             75% of Indian districts are Off-Target on the following Indicators:
           </p>
         </div>
       </div>
 
-      <div class="lg:flex flex-row justify-center mt-14 ">
-        <div class="flex flex-col items-center justify-start lg:w-1/3  mt-10 ">
+      <div className="lg:flex flex-row justify-center mt-14 ">
+        <div className="flex flex-col items-center justify-start lg:w-1/3  mt-10 ">
           <Image
-            class="w-32"
+            className="w-32"
             src="/images/icon-4.png"
             alt="image description"
             width={200}
             height={200}
           />
-          <h1 class="text-xl text-black">
+          <h1 className="text-xl text-black">
             <b>Access To Basic Services</b>
           </h1>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/3  mt-10">
+        <div className="flex flex-col items-center justify-start lg:w-1/3  mt-10">
           <Image
-            class="w-32"
+            className="w-32"
             src="/images/icon-5.png"
             alt="image description"
             width={200}
             height={200}
           />
-          <h1 class="text-xl text-black">
+          <h1 className="text-xl text-black">
             <b>Wasting And Overweight Children</b>
           </h1>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/3  mt-10">
+        <div className="flex flex-col items-center justify-start lg:w-1/3  mt-10">
           <Image
-            class="w-32"
+            className="w-32"
             src="/images/icon-6.png"
             alt="image description"
             width={200}
             height={200}
           />
-          <h1 class="text-xl text-black">
+          <h1 className="text-xl text-black">
             <b>Anaemia</b>
           </h1>
         </div>
       </div>
 
-      <div class="lg:flex flex-row justify-center mt-14 ">
-        <div class="flex flex-col items-center justify-start lg:w-1/3  mt-10">
+      <div className="lg:flex flex-row justify-center mt-14 ">
+        <div className="flex flex-col items-center justify-start lg:w-1/3  mt-10">
           <Image
-            class="w-32"
+            className="w-32"
             src="/images/icon-7.png"
             alt="image description"
             width={200}
             height={200}
           />
-          <h1 class="text-xl text-black">
+          <h1 className="text-xl text-black">
             <b>Child Marriage</b>
           </h1>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/3  mt-10">
+        <div className="flex flex-col items-center justify-start lg:w-1/3  mt-10">
           <Image
-            class="w-32"
+            className="w-32"
             src="/images/icon-8.png"
             alt="image description"
             width={200}
             height={200}
           />
-          <h1 class="text-xl text-black">
+          <h1 className="text-xl text-black">
             <b>Partner Violence</b>
           </h1>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/3 mt-10">
+        <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
           <Image
-            class="w-32"
+            className="w-32"
             src="/images/icon-9.png"
             alt="image description"
             width={200}
             height={200}
           />
-          <h1 class="text-xl text-black">
+          <h1 className="text-xl text-black">
             <b>Tobacco Use</b>
           </h1>
         </div>
       </div>
 
-      <div class="flex flex-row justify-center mt-14 ">
-        <div class="flex flex-col items-center justify-start w-1/3  mt-10">
+      <div className="flex flex-row justify-center mt-14 ">
+        <div className="flex flex-col items-center justify-start w-1/3  mt-10">
           <Image
-            class="w-32"
+            className="w-32"
             src="/images/icon-10.png"
             alt="image description"
             width={200}
             height={200}
           />
-          <h1 class="text-xl text-black">
+          <h1 className="text-xl text-black">
             <b>Modern Contraceptive Use</b>
           </h1>
         </div>

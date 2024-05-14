@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import React, { useState } from "react"
-import Link from 'next/link'
+import Link from "next/link"
 
 const Homepage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,19 +13,15 @@ const Homepage = () => {
   return (
     <div className="">
       <div className="py-5 z-50 flex fixed inset-0 h-[6em] top-6 w-[95%] mx-auto rounded-lg bg-white justify-between">
-        
-          <Link href="/" className=" content-center bg-white rounded-lg">
-            
-              <Image
-                className="w-full h-[58px] "
-                src="/images/catalysing_logo.png"
-                alt="image description"
-                height={200}
-                width={700}
-              />
-            
-          </Link>
-        
+        <Link href="/" className=" content-center bg-white rounded-lg">
+          <Image
+            className="w-full h-[58px] "
+            src="/images/catalysing_logo.png"
+            alt="image description"
+            height={200}
+            width={700}
+          />
+        </Link>
 
         <div className="bg-white content-center rounded-lg">
           <nav className="bg-white">
@@ -135,7 +131,7 @@ const Homepage = () => {
                   <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 bg-white md:hidden">
                     <li className="bg-white">
                       <Link
-                        href="#"
+                        href="/"
                         className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                         aria-current="page"
                       >
@@ -143,16 +139,16 @@ const Homepage = () => {
                       </Link>
                     </li>
                     <li className="bg-white relative group">
-                      <Link
-                        href="#"
+                      <p
+                        href=""
                         className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                       >
                         CSI 2024
-                      </Link>
+                      </p>
                       <ul className="absolute left-0 mt-2 w-40 bg-white border rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <li>
                           <Link
-                            href="#i"
+                            href="csi-2024"
                             className="block py-2 px-4 text-gray-800 hover:bg-gray-100"
                           >
                             CSI 2024
@@ -160,7 +156,7 @@ const Homepage = () => {
                         </li>
                         <li>
                           <Link
-                            href="#o"
+                            href="SDG"
                             className="block py-2 px-4 text-gray-800 hover:bg-gray-100"
                           >
                             SDG
@@ -170,15 +166,15 @@ const Homepage = () => {
                     </li>
                     <li className="bg-white">
                       <Link
-                        href="#"
+                        href="csi-2019"
                         className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                       >
                         CSI 2019
                       </Link>
                     </li>
-                    <li className="bg-white">
+                    <li className="bg-white mt-8">
                       <Link
-                        href="#"
+                        href="contribute"
                         className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                       >
                         How can you contribute?
@@ -186,7 +182,7 @@ const Homepage = () => {
                     </li>
                     <li className="bg-white">
                       <Link
-                        href="#"
+                        href="signup"
                         className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                       >
                         Sign Up

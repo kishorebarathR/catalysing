@@ -24,7 +24,7 @@ const Footerpage = () => {
         </div>
       </div>
 
-      <div className="bg-[#7E3F98] px-10">
+      <div className="bg-[#7E3F98] px-10 ">
         <nav className="violet">
           <div className="max-w-screen-xl mx-auto p-4 violet">
             <div className="flex flex-wrap items-center justify-between">

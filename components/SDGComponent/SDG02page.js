@@ -4,143 +4,143 @@ import Image from "next/image"
 const SDG02page = () => {
   return (
     <>
-      <div class="lg:flex flex-col justify-center items-center mt-24  ">
-        <div class="text-black text-center">
-          <p class="text-3xl mt-5 mx-4">
+      <div className="lg:flex flex-col justify-center items-center mt-24  ">
+        <div className="text-black text-center">
+          <p className="text-3xl mt-5 mx-4">
             India’s Million Missions - Understanding the work <p></p>of 643 NPOs
             in 75 Years of India
           </p>
         </div>
       </div>
 
-      <div class="lg:flex flex-row justify-center mt-14 space-x-6 px-5 ">
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/1.png" alt="image description" width={200} height={200} />
-          <div class="text-xl text-black w-44   text-center">
+      <div className="lg:flex flex-row justify-center mt-14 space-x-6 px-5 ">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/1.png" alt="image description" width={200} height={200} />
+          <div className="text-xl text-black w-44   text-center">
             <p className="bg-yellow-300 mt-4  ">31%</p>
           </div>
         </div>
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/2.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/2.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">17%</p>
           </div>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/3.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/3.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">45%</p>
           </div>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/4.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/4.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">51%</p>
           </div>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/5.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/5.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">35%</p>
           </div>
         </div>
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
           <Image class="p-1" src="/images/6.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">18%</p>
           </div>
         </div>
       </div>
 
-      <div class="lg:flex flex-row justify-center mt-4 space-x-6 px-5 ">
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/7.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44   text-center">
+      <div className="lg:flex flex-row justify-center mt-4 space-x-6 px-5 ">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/7.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44   text-center">
             <p className="bg-yellow-300 mt-4  ">1%</p>
           </div>
         </div>
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/8.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/8.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">17%</p>
           </div>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/9.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/9.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">3%</p>
           </div>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/10.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/10.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">17%</p>
           </div>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/11.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/11.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">8%</p>
           </div>
         </div>
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/12.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/12.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">2%</p>
           </div>
         </div>
       </div>
 
-      <div class="lg:flex flex-row justify-center mt-4 space-x-6 px-5 ">
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/13.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44   text-center">
+      <div className="lg:flex flex-row justify-center mt-4 space-x-6 px-5 ">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/13.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44   text-center">
             <p className="bg-yellow-300 mt-4  ">15%</p>
           </div>
         </div>
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/14.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/14.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">1%</p>
           </div>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/15.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/15.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">2%</p>
           </div>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/16.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/16.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">5%</p>
           </div>
         </div>
 
-        <div class="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/17.png" alt="image description" width={200} height={200}/>
-          <div class="text-xl text-black w-44 text-center">
+        <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
+          <Image className="p-1" src="/images/17.png" alt="image description" width={200} height={200}/>
+          <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">12%</p>
           </div>
         </div>
         <div className="w-1/6"></div>
       </div>
 
-      <div class="flex flex-col justify-center items-center mt-24">
-        <div class="text-black text-center">
-          <h1 class=" text-5xl mx-4 lg:mx-96 text-black relative font-semibold">
+      <div className="flex flex-col justify-center items-center mt-24">
+        <div className="text-black text-center">
+          <h1 className=" text-5xl mx-4 lg:mx-96 text-black relative font-semibold">
             SDG Action Labs
           </h1>
 
-          <p class=" mt-5 lg:px-5">
+          <p className=" mt-5 lg:px-5">
             Each SDG would ideally be mapped to a group of interested members,
             with a chair appointed among them to preside over a Working Group.
             The members of each Working Group would be responsible for
@@ -233,19 +233,19 @@ const SDG02page = () => {
      
      
       <div className="mx-5">
-        <div class="flex flex-row justify-start mt-14 space-x-6 px-5 ">
-          <div class="lg:flex items-start mt-10">
+        <div className="flex flex-row justify-start mt-14 space-x-6 px-5 ">
+          <div className="lg:flex items-start mt-10">
             <Image
               className="w-40 p-2"
               src="/images/innovative-financing.png"
               alt="image description"
               width={200} height={200}
             />
-            <div class="flex flex-col justify-start ml-4 mt-5">
-              <div class="text-4xl font-semibold text-black">
+            <div className="flex flex-col justify-start ml-4 mt-5">
+              <div className="text-4xl font-semibold text-black">
                 <p className="mt-4 ">Innovative Financing</p>
               </div>
-              <div class="text-md text-black">
+              <div className="text-md text-black">
                 <p className="mt-4">
                   What are new financial instruments (including results and
                   outcome-based), how do they compare with each other, how do we
@@ -258,19 +258,19 @@ const SDG02page = () => {
           </div>
         </div>
 
-        <div class="lg:flex flex-row justify-start   space-x-5 ">
-          <div class="lg:flex items-start mt-10">
+        <div className="lg:flex flex-row justify-start   space-x-5 ">
+          <div className="lg:flex items-start mt-10">
             <Image
-              class="w-40 p-2"
+              className="w-40 p-2"
               src="/images/growth.png"
               alt="image description"
               width={200} height={200}
             />
-            <div class="flex flex-col justify-start ml-4 mt-5">
-              <div class="text-4xl font-semibold text-black">
+            <div className="flex flex-col justify-start ml-4 mt-5">
+              <div className="text-4xl font-semibold text-black">
                 <p className="mt-4 ">Transformation for Growth</p>
               </div>
-              <div class="text-md text-black ">
+              <div className="text-md text-black ">
                 <p className="">
                   How to manage large-scale transformation—of processes,
                   organisations, and systems, what investments are required, how
@@ -282,19 +282,19 @@ const SDG02page = () => {
           </div>
         </div>
 
-        <div class="flex flex-row justify-start   space-x-5 ">
-          <div class="lg:flex items-start mt-10">
+        <div className="flex flex-row justify-start   space-x-5 ">
+          <div className="lg:flex items-start mt-10">
             <Image
-              class="w-40 p-2"
+              className="w-40 p-2"
               src="/images/development.png"
               alt="image description"
               width={200} height={200}
             />
-            <div class="flex flex-col justify-start ml-4 mt-5">
-              <div class="text-3xl font-semibold text-black">
+            <div className="flex flex-col justify-start ml-4 mt-5">
+              <div className="text-3xl font-semibold text-black">
                 <p className="mt-4 ">Tech in Social Development</p>
               </div>
-              <div class="text-md text-black ">
+              <div className="text-md text-black ">
                 <p className="">
                   Technology types, where is it applied, where can maximum
                   returns emerge, what kinds of technology are working, how do
@@ -306,19 +306,19 @@ const SDG02page = () => {
           </div>
         </div>
 
-        <div class="lg:flex flex-row justify-start  space-x-5 ">
-          <div class="lg:flex items-start mt-10">
+        <div className="lg:flex flex-row justify-start  space-x-5 ">
+          <div className="lg:flex items-start mt-10">
             <Image
-              class="w-40 p-2"
+              className="w-40 p-2"
               src="/images/change.png"
               alt="image description"
               width={200} height={200}
             />
-            <div class="lg:flex flex-col justify-start ml-4 mt-5">
-              <div class="text-3xl font-semibold text-black">
+            <div className="lg:flex flex-col justify-start ml-4 mt-5">
+              <div className="text-3xl font-semibold text-black">
                 <p className="mt-4 ">Social Behaviour Change</p>
               </div>
-              <div class="text-md text-black ">
+              <div className="text-md text-black ">
                 <p className="">
                   What theories and practices work in changing social norms and
                   individual behaviour, how do we know they work, how do we
@@ -330,14 +330,14 @@ const SDG02page = () => {
           </div>
         </div>
 
-        <div class="lg:flex flex-row justify-start  space-x-5 ">
-          <div class="lg:flex items-start mt-10">
-            <Image class="w-40  p-2" src="/images/scale.png" alt="image description" width={200} height={200}/>
-            <div class="flex flex-col justify-start ml-4 mt-5">
+        <div className="lg:flex flex-row justify-start  space-x-5 ">
+          <div className="lg:flex items-start mt-10">
+            <Image className="w-40  p-2" src="/images/scale.png" alt="image description" width={200} height={200}/>
+            <div className="flex flex-col justify-start ml-4 mt-5">
               <div class="text-3xl font-semibold text-black">
                 <p className="mt-4 ">Impact at Scale</p>
               </div>
-              <div class="text-md text-black ">
+              <div className="text-md text-black ">
                 <p className="">
                   Build on learning and unlock the vast present and future
                   potential to find efficient alternatives and strategies to

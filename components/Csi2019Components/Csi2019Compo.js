@@ -21,8 +21,8 @@ const Csi2019Compo = () => {
           <source src="/vedio/cphc-for-subtitle.mp4" type="video/mp4" />
         </video>
 
-        <div class="  inset-0 flex items-end justify-start  lg:absolute ">
-          <div class="bg-white text-black p-5 rounded-tr-3xl rounded-bs-3xl border border-r border-black lg:w-1/3 ">
+        <div className="  inset-0 flex items-end justify-start  lg:absolute ">
+          <div className="bg-white text-black p-5 rounded-tr-3xl rounded-bs-3xl border border-r border-black lg:w-1/3 ">
             <p>
               Social impact catalysis is the catalyst for a ripple effect of
               positive change, transcending boundaries and leaving a legacy of
@@ -31,7 +31,7 @@ const Csi2019Compo = () => {
           </div>
         </div>
 
-        <div class=" inset-0 lg:flex items-end justify-end lg:me-10  lg:absolute  ">
+        <div className=" inset-0 lg:flex items-end justify-end lg:me-10  lg:absolute  ">
           <button
             data-modal-target="default-modal07"
             data-modal-toggle="default-modal07"
@@ -106,11 +106,11 @@ const Csi2019Compo = () => {
         </div>
       </div>
 
-      <div class="lg:flex justify-center items-center h-full lg:mt-64 ">
-        <div class="flex flex-col lg:flex-row lg:mt-14">
-          <div class="lg:w-full h-full">
+      <div className="lg:flex justify-center items-center h-full lg:mt-64 ">
+        <div className="flex flex-col lg:flex-row lg:mt-14">
+          <div className="lg:w-full h-full">
             <Image
-              class="object-cover w-full h-full lg:-mt-44 "
+              className="object-cover w-full h-full lg:-mt-44 "
               src="/images/landscape.png"
               alt="image description"
               height={200}
@@ -120,7 +120,7 @@ const Csi2019Compo = () => {
 
           <div className="text-white lg:w-1/2 lg:-mt-12 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:end-20 ">
-              <div class="w-full ">
+              <div className="w-full ">
                 <Image
                   className="lg:ms-64 px-2 w-40 lg:-mt-24"
                   src="/images/CSI_Changes.png"
@@ -144,11 +144,11 @@ const Csi2019Compo = () => {
         </div>
       </div>
 
-      <div class="lg:flex justify-center items-center h-full ">
-        <div class="flex flex-col lg:flex-row lg:mt-60">
+      <div className="lg:flex justify-center items-center h-full ">
+        <div className="flex flex-col lg:flex-row lg:mt-60">
           <div className="text-white lg:w-1/2 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:start-20 mt-20 ">
-              <div class="w-full">
+              <div className="w-full">
                 <Image
                   className="w-40 lg:-ms-28 px-2 lg:-mt-14 "
                   src="/images/CSI_Collaborate.png"
@@ -170,7 +170,7 @@ const Csi2019Compo = () => {
             </div>
           </div>
 
-          <div class="w-full">
+          <div className="w-full">
             <Image
               className=" lg:-mt-14 mb-14  object-cover w-full h-full"
               src="/images/solution-circles.png"
@@ -182,9 +182,9 @@ const Csi2019Compo = () => {
         </div>
       </div>
 
-      <div class="lg:flex justify-center items-center h-full mt-60">
-        <div class="flex flex-col lg:flex-row mt-14">
-          <div class="w-full">
+      <div className="lg:flex justify-center items-center h-full mt-60">
+        <div className="flex flex-col lg:flex-row mt-14">
+          <div className="w-full">
             <Image
               className="-mt-44  object-cover w-full h-full"
               src="/images/challengers.png"
@@ -196,7 +196,7 @@ const Csi2019Compo = () => {
 
           <div className="text-white lg:w-1/2 lg:-mt-36 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:end-20 ">
-              <div class="w-full">
+              <div className="w-full">
                 <Image
                   className="lg:ms-64 px-2 w-40 lg:-mt-24 "
                   src="/images/CSI_Disability.png"
@@ -219,11 +219,11 @@ const Csi2019Compo = () => {
         </div>
       </div>
 
-      <div class="lg:flex justify-center items-center h-full ">
-        <div class="flex flex-col lg:flex-row lg:mt-44">
+      <div className="lg:flex justify-center items-center h-full ">
+        <div className="flex flex-col lg:flex-row lg:mt-44">
           <div className="text-white lg:w-1/2 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:start-20 mt-20 ">
-              <div class="w-full">
+              <div className="w-full">
                 <Image
                   className="w-40 lg:-ms-32 px-2 -mt-14 "
                   src="/images/CSI_family.png"
@@ -245,7 +245,7 @@ const Csi2019Compo = () => {
             </div>
           </div>
 
-          <div class="w-full">
+          <div className="w-full">
             <Image
               className=" -mt-14 mb-10 object-cover w-full h-full"
               src="/images/marketplace.png"
@@ -257,9 +257,9 @@ const Csi2019Compo = () => {
         </div>
       </div>
 
-      <div class="lg:flex justify-center items-center h-full mt-60 ">
-        <div class="flex flex-col lg:flex-row mt-14">
-          <div class="w-full">
+      <div className="lg:flex justify-center items-center h-full mt-60 ">
+        <div className="flex flex-col lg:flex-row mt-14">
+          <div className="w-full">
             <Image
               className="-mt-44 object-cover w-full h-full"
               src="/images/legends.png"
@@ -271,7 +271,7 @@ const Csi2019Compo = () => {
 
           <div className="text-white lg:w-1/2 lg:-mt-24 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:end-20 ">
-              <div class="w-full">
+              <div className="w-full">
                 <Image
                   className="lg:ms-64 px-2 w-100 lg:-mt-24"
                   src="/images/CSI_Government.png"
@@ -453,7 +453,7 @@ const Csi2019Compo = () => {
                             width={200}
                           />
                         </div>
-                        <div class="w-full ">
+                        <div className="w-full ">
                           <Image
                             className="mt-5 px-3 "
                             src="/images/image011.jpg"
@@ -544,7 +544,7 @@ const Csi2019Compo = () => {
               id="default-modal"
               tabindex="-1"
               aria-hidden="true"
-              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+              className="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
             >
               <div className="relative p-4 w-full max-w-2xl max-h-full">
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
@@ -554,7 +554,7 @@ const Csi2019Compo = () => {
                     </h3>
                     <button
                       type="button"
-                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
                       data-modal-hide="default-modal"
                     >
                       <svg
@@ -576,9 +576,9 @@ const Csi2019Compo = () => {
                     </button>
                   </div>
 
-                  <div class="flex justify-center items-center h-full mt-5 ">
-                    <div class="flex flex-col lg:flex-row  ">
-                      <div class="w-full">
+                  <div className="flex justify-center items-center h-full mt-5 ">
+                    <div className="flex flex-col lg:flex-row  ">
+                      <div className="w-full">
                         <Image
                           className="mt-5 px-3"
                           src="/images/image0001 (1).jpg"
@@ -587,7 +587,7 @@ const Csi2019Compo = () => {
                           width={200}
                         />
                       </div>
-                      <div class="w-full">
+                      <div className="w-full">
                         <Image
                           className="mt-5 px-3"
                           src="/images/image0002 (1).jpg"
@@ -596,7 +596,7 @@ const Csi2019Compo = () => {
                           width={200}
                         />
                       </div>
-                      <div class="w-full ">
+                      <div className="w-full ">
                         <Image
                           className="mt-5 px-3 "
                           src="/images/image0003 (1).jpg"
@@ -605,7 +605,7 @@ const Csi2019Compo = () => {
                           width={200}
                         />
                       </div>
-                      <div class="w-full ">
+                      <div className="w-full ">
                         <Image
                           className="mt-5 px-3 "
                           src="/images/image004 (1)0.jpg"
@@ -617,9 +617,9 @@ const Csi2019Compo = () => {
                     </div>
                   </div>
 
-                  <div class="flex justify-center items-center h-full mt-5 ">
-                    <div class="flex flex-col lg:flex-row  ">
-                      <div class="w-full">
+                  <div className="flex justify-center items-center h-full mt-5 ">
+                    <div className="flex flex-col lg:flex-row  ">
+                      <div className="w-full">
                         <Image
                           className="mt-5 px-3"
                           src="/images/image005 (1).jpg"
@@ -628,7 +628,7 @@ const Csi2019Compo = () => {
                           width={200}
                         />
                       </div>
-                      <div class="w-full">
+                      <div className="w-full">
                         <Image
                           className="mt-5 px-3"
                           src="/images/image006 (2).jpg"
@@ -637,7 +637,7 @@ const Csi2019Compo = () => {
                           width={200}
                         />
                       </div>
-                      <div class="w-full ">
+                      <div className="w-full ">
                         <Image
                           className="mt-5 px-3 "
                           src="/images/image0007 (1).jpg"
@@ -646,7 +646,7 @@ const Csi2019Compo = () => {
                           width={200}
                         />
                       </div>
-                      <div class="w-full ">
+                      <div className="w-full ">
                         <Image
                           className="mt-5 px-3 "
                           src="/images/image0008 (1).jpg"
@@ -658,9 +658,9 @@ const Csi2019Compo = () => {
                     </div>
                   </div>
 
-                  <div class="flex justify-center items-center h-full mt-5 ">
-                    <div class="flex flex-col lg:flex-row  ">
-                      <div class="w-full">
+                  <div className="flex justify-center items-center h-full mt-5 ">
+                    <div className="flex flex-col lg:flex-row  ">
+                      <div className="w-full">
                         <Image
                           className="mt-5 px-3"
                           src="/images/image0009 (1).jpg"
@@ -669,7 +669,7 @@ const Csi2019Compo = () => {
                           width={200}
                         />
                       </div>
-                      <div class="w-full">
+                      <div className="w-full">
                         <Image
                           className="mt-5 px-3"
                           src="/images/image0009 (1).jpg"
@@ -682,11 +682,11 @@ const Csi2019Compo = () => {
                     </div>
                   </div>
 
-                  <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+                  <div className="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <button
                       data-modal-hide="default-modal"
                       type="button"
-                      class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                      className="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                     >
                       Close
                     </button>
@@ -698,8 +698,8 @@ const Csi2019Compo = () => {
         </div>
       </div>
 
-      <div class="lg:flex justify-center items-center h-full mt-24">
-        <div class="flex flex-col lg:flex-row px-10 ">
+      <div className="lg:flex justify-center items-center h-full mt-24">
+        <div className="flex flex-col lg:flex-row px-10 ">
           <div className="lg:w-1/2   ">
             <Image
               className="px-3 object-cover w-full h-full "
@@ -722,7 +722,7 @@ const Csi2019Compo = () => {
               id="default-modal3"
               tabindex="-1"
               aria-hidden="true"
-              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+              className="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
             >
               <div className="relative p-4 w-full max-w-2xl max-h-full">
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
@@ -732,7 +732,7 @@ const Csi2019Compo = () => {
                     </h3>
                     <button
                       type="button"
-                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
                       data-modal-hide="default-modal3"
                     >
                       <svg
@@ -767,11 +767,11 @@ const Csi2019Compo = () => {
                     </div>
                   </div>
 
-                  <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+                  <div className="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <button
                       data-modal-hide="default-modal3"
                       type="button"
-                      class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                      className="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                     >
                       Close
                     </button>
@@ -803,7 +803,7 @@ const Csi2019Compo = () => {
               id="default-modal4"
               tabindex="-1"
               aria-hidden="true"
-              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+              className="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
             >
               <div className="relative p-4 w-full max-w-2xl max-h-full">
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
@@ -813,7 +813,7 @@ const Csi2019Compo = () => {
                     </h3>
                     <button
                       type="button"
-                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
                       data-modal-hide="default-modal4"
                     >
                       <svg
@@ -848,11 +848,11 @@ const Csi2019Compo = () => {
                     </div>
                   </div>
 
-                  <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+                  <div className="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <button
                       data-modal-hide="default-modal4"
                       type="button"
-                      class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                      className="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                     >
                       Close
                     </button>
@@ -884,7 +884,7 @@ const Csi2019Compo = () => {
               id="default-modal5"
               tabindex="-1"
               aria-hidden="true"
-              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+              className="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
             >
               <div className="relative p-4 w-full max-w-2xl max-h-full">
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
@@ -894,7 +894,7 @@ const Csi2019Compo = () => {
                     </h3>
                     <button
                       type="button"
-                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
                       data-modal-hide="default-modal5"
                     >
                       <svg
@@ -929,11 +929,11 @@ const Csi2019Compo = () => {
                     </div>
                   </div>
 
-                  <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+                  <div className="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <button
                       data-modal-hide="default-modal5"
                       type="button"
-                      class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                      className="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                     >
                       Close
                     </button>
@@ -975,7 +975,7 @@ const Csi2019Compo = () => {
                     </h3>
                     <button
                       type="button"
-                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
                       data-modal-hide="default-modal6"
                     >
                       <svg
@@ -1010,11 +1010,11 @@ const Csi2019Compo = () => {
                     </div>
                   </div>
 
-                  <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+                  <div className="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <button
                       data-modal-hide="default-modal6"
                       type="button"
-                      class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                      className="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                     >
                       Close
                     </button>
@@ -1029,7 +1029,7 @@ const Csi2019Compo = () => {
       <div className="text-center mt-10 mb-10">
         <a
           href="CSI2024"
-          class="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
+          className="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
         >
           CSI 2019 Report
         </a>
