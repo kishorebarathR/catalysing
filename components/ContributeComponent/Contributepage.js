@@ -2,7 +2,7 @@ import Image from "next/image"
 const Contributepage = () => {
   return (
     <>
-      <div className="mx-5 mt-52">
+      <div className="mx-5 mt-40">
         <h1 className="text-[#7E3F98] font-semibold text-4xl">
           How can you contribute?
         </h1>

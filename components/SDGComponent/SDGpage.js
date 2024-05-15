@@ -4,7 +4,7 @@ import Image from "next/image"
 const SDGpage = () => {
   return (
     <>
-      <div className="lg:flex justify-center items-center mt-52 ">
+      <div className="lg:flex justify-center items-center mt-32 ">
         <div className="flex flex-col lg:flex-row  justify-center items-center  ">
           <div className="text-white ">
             <h1 className="text-5xl  text-black ">

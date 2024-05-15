@@ -4,7 +4,7 @@ import Image from "next/image"
 const Csi2024page = () => {
   return (
     <>
-      <div className="lg:grid grid-cols-2 m-5 rounded-lg-5 lg:mt-64">
+      <div className="lg:grid grid-cols-2 mx-10 rounded-lg-5 lg:mt-44">
         <div className="rounded-lg-1">
           <Image
             className="w-full bg-white"

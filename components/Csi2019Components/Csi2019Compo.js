@@ -18,7 +18,7 @@ const Csi2019Compo = () => {
 
   return (
     <>
-      <div className=" lg:mx-5 relative mt-44">
+      <div className=" mx-10 relative mt-44">
         <video className="h-full w-full " autoPlay muted loop>
           <source src="/vedio/cphc-for-subtitle.mp4" type="video/mp4" />
         </video>

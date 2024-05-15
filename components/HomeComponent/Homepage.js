@@ -48,7 +48,7 @@ const Homepage = () => {
   return (
     <>
       <Slider {...settings}>
-        <div className="mt-[10em] px-10">
+        <div className="mt-[11em] px-10">
           <div className="lg:grid grid-cols-2  h-full w-full rounded-lg-5">
             <div className="rounded-lg-1">
               <Image
@@ -81,7 +81,7 @@ const Homepage = () => {
 
         {/* Item 2 */}
 
-        <div className="  mt-[10em] px-10 relative">
+        <div className="  mt-[11em] px-10 relative">
           <video className="h-full w-full " autoPlay muted loop>
             <source src="/vedio/cphc-for-subtitle.mp4" type="video/mp4" />
           </video>
