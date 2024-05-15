@@ -4,7 +4,7 @@ import Head from "next/head"
 
 function NextSeo({ title, description, path, metaImage }) {
   return (
-    <Head>
+    <head>
       <meta charSet="utf-8" />
       <title>{title}</title>
       <meta name="description" content={description} />
@@ -37,7 +37,7 @@ function NextSeo({ title, description, path, metaImage }) {
           }),
         }}
       />
-    </Head>
+    </head>
   )
 }
 

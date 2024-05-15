@@ -136,9 +136,9 @@ const SDG02page = () => {
 
       <div className="flex flex-col justify-center items-center mt-24">
         <div className="text-black text-center">
-          <h1 className=" text-5xl mx-4 lg:mx-96 text-black relative font-semibold">
+          <h12 className=" text-5xl mx-4 lg:mx-96 text-black relative font-semibold">
             SDG Action Labs
-          </h1>
+          </h12>
 
           <p className=" mt-5 lg:px-5">
             Each SDG would ideally be mapped to a group of interested members,
@@ -162,9 +162,9 @@ const SDG02page = () => {
             />
           </div>
           <div className="text-black ms-6 mt-2">
-            <h1 className=" text-4xl text-black">
+            <h3 className=" text-4xl text-black">
               <b> SDG Action Labs The Endgame</b>
-            </h1>
+            </h3>
             <p className="text-lg mt-2">
               Solving intractable problems which continue to challenge us
               (including taking tested solutions to scale)
@@ -177,9 +177,9 @@ const SDG02page = () => {
               <li>To test and scale solutions</li>
               <li>To move beyond learning: focus on end use</li>
             </ul>
-            <h1 className=" text-4xl text-black mt-3">
+            <h2 className=" text-4xl text-black mt-3">
               <b> An organised group of people who:</b>
-            </h1>
+            </h2>
             <div className="space-y-4">
               <p>
                 <b>Hold</b> a common interest in a specific thematic or service
@@ -205,14 +205,14 @@ const SDG02page = () => {
       <div className="lg:flex justify-start items-start mt-24 ">
         <div className="lg:flex flex-col lg:flex-row lg:-ms-10">
           <div className=" lg:ml-auto lg:w-1/2 ">
-            <h1 className="text-5xl text-black">Recognition of the</h1>
-            <h1 className="l-title text-5xl text-black relative mt-3 font-semibold">
+            <h3 className="text-5xl text-black">Recognition of the</h3>
+            <h3 className="l-title text-5xl text-black relative mt-3 font-semibold">
               Interconnectedness
-            </h1>
-            <h1 className="text-5xl text-black mt-3">between the</h1>
-            <h1 className="l-title text-5xl text-black relative mt-2 font-semibold">
+            </h3>
+            <h3 className="text-5xl text-black mt-3">between the</h3>
+            <h3 className="l-title text-5xl text-black relative mt-2 font-semibold">
               Curated Themes;
-            </h1>
+            </h3>
             <div>
               <p className="text-black text-3xl mt-3 ">
                 <b>Theme and Cross-theme Engagement Designed</b>

@@ -48,15 +48,15 @@ const Csi2024page = () => {
                   width={200}
                 />
               </div>
-              <h1 className="text-4xl violet text-white">
+              <h2 className="text-4xl violet text-white">
                 Unlock || The<p className=""></p> IDG Journey
-              </h1>
-              <p className="mt-3">
+              </h2>
+              <h3 className="mt-3 text-md">
                 Inner Development Goals (IDGs) are a framework for cultivating
                 personal qualities that contribute to a better world. Unlike
                 traditional goals focused on achievement, IDGs aim for inner
                 growth that fuels positive social change. Here&rsquo;s the gist:{" "}
-              </p>
+              </h3>
               <ul className="list-disc ps-4 ms-3 space-y-1 mt-3">
                 <li className="violet">
                   Focus: Develop skills and qualities for purposeful,

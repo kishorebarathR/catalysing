@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from "react"
 import { initFlowbite } from "flowbite"
 import Image from "next/image"
-import Link from "next/link"
+
+import { MdOutlineSlowMotionVideo } from "react-icons/md";
 
 const Csi2019Compo = () => {
   const [isShow, setIsShow] = useState(false)
@@ -38,9 +39,9 @@ const Csi2019Compo = () => {
             data-modal-toggle="default-modal07"
             type="button"
             onclick="window.location.href='signup'"
-            className="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
+            className="flex focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
           >
-            Play the Video
+            Play the Video <div className="px-1 mt-1"><MdOutlineSlowMotionVideo /></div>
           </button>
 
           <div
@@ -158,7 +159,7 @@ const Csi2019Compo = () => {
                   width={200}
                 />
               </div>
-              <h1 className="text-4xl violet text-white ">Solution Circles</h1>
+              <h2 className="text-4xl violet text-white ">Solution Circles</h2>
               <p className="mt-3">
                 The Solution Circles approach, inspired by Socratic circles,
                 facilitates collaborative problem-solving. Participants engage
@@ -206,7 +207,7 @@ const Csi2019Compo = () => {
                   width={200}
                 />
               </div>
-              <h1 className="text-4xl  text-white">Challengers</h1>
+              <h3 className="text-4xl  text-white">Challengers</h3>
               <p className="mt-5">
                 Challengers, curates and hosts talks from visionaries propelling
                 social change. Through compelling narratives, these speakers
@@ -233,7 +234,7 @@ const Csi2019Compo = () => {
                   width={200}
                 />
               </div>
-              <h1 className="text-4xl violet text-white ">Marketplace</h1>
+              <h3 className="text-4xl violet text-white ">Marketplace</h3>
               <p className="mt-3">
                 The Ideas Marketplace, an offshoot of Solution Circles,
                 cultivates collaborative innovation. Participants, inspired by
@@ -281,7 +282,7 @@ const Csi2019Compo = () => {
                   width={200}
                 />
               </div>
-              <h1 className="text-4xl  text-white">Legends</h1>
+              <h3 className="text-4xl  text-white">Legends</h3>
               <p className="mt-5">
                 We closed the Catalysing Social Impact 2019 convening with the
                 “Legends” segment - starting with a solemn memorial for the

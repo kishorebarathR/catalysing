@@ -49,9 +49,9 @@ const Aboutpage = () => {
           gender, governance or others -the goal is to drive deeper and more
           impactful actions that enable a collective vision of India at 100.
         </p>
-        <h2 className=" text-4xl mt-16 text-[#7E3F98]">
+        <h3 className=" text-4xl mt-16 text-[#7E3F98]">
           <b className="txt-violet">Conversations Cafe</b>
-        </h2>
+        </h3>
         <div className="lg:grid grid-cols-3 mt-10 ">
           <div className="">
             <iframe

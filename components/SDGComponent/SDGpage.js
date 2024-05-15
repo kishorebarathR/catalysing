@@ -10,9 +10,9 @@ const SDGpage = () => {
             <h1 className="text-5xl  text-black ">
               <b>Welcome</b> to the
             </h1>
-            <h1 className="l-title text-5xl text-black relative">
+            <h3 className="l-title text-5xl text-black relative">
               <b>SDG Action Labs</b>
-            </h1>
+            </h3>
           </div>
           <div>
             <Image
@@ -59,10 +59,10 @@ const SDGpage = () => {
 
       <div className="flex flex-col lg:flex-row  justify-center items-center  mt-20">
         <div className="text-white text-center  ">
-          <h1 className="text-5xl  text-black ">About the</h1>
-          <h1 className="l-title text-5xl lg:mx-96 text-black relative">
+          <h3 className="text-5xl  text-black ">About the</h3>
+          <h3 className="l-title text-5xl lg:mx-96 text-black relative">
             <b>SDG Action Labs</b>
-          </h1>
+          </h3>
         </div>
       </div>
       <div className="container mx-auto lg:p-5 mt-6">
@@ -91,12 +91,12 @@ const SDGpage = () => {
           </div>
           <div className="text-white lg:w-1/2 lg:mt-36 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:end-20  ">
-              <h1 className="text-4xl violet text-white ">
+              <h3 className="text-4xl violet text-white ">
                 The <br></br>
                 <b>Journey</b>
                 <br></br>
                 <b>Ahead</b>{" "}
-              </h1>
+              </h3>
               <p className="mt-3">
                 The event—a collaborative convergence of dynamic minds—is set to
                 unfold in Bengaluru, Karnataka. A multi-stakeholder symposium
@@ -111,10 +111,10 @@ const SDGpage = () => {
 
       <div className="flex flex-col lg:flex-row  justify-center items-center  lg:mt-10">
         <div className="text-white text-center  ">
-          <h1 className="l-title text-5xl lg:mx-96 text-black relative">
+          <h3 className="l-title text-5xl lg:mx-96 text-black relative">
             <b>Beyond Knowledge</b>
-          </h1>
-          <h1 className="text-5xl lg:mx-96 text-black">to Action</h1>
+          </h3>
+          <h3 className="text-5xl lg:mx-96 text-black">to Action</h3>
         </div>
       </div>
 
@@ -130,9 +130,9 @@ const SDGpage = () => {
             />
           </div>
           <div className="">
-            <h1 className="text-black text-4xl ">
+            <h3 className="text-black text-4xl ">
               <b>Objectives</b>
-            </h1>
+            </h3>
             <div className="mt-5 ">
               <Image
                 className=" w-32"
@@ -180,9 +180,9 @@ const SDGpage = () => {
       <div className="lg:flex justify-center items-center h-full mt-14">
         <div className="flex flex-col lg:flex-row mt-10">
           <div className="  lg:w-1/2 mt-20 lg:ms-24">
-            <h1 className="text-black text-4xl ">
+            <h3 className="text-black text-4xl ">
               <b>Outcomes</b>
-            </h1>
+            </h3>
             <div className="mt-5 ">
               <Image
                 className="w-32 "
@@ -226,10 +226,10 @@ const SDGpage = () => {
 
       <div className="lg:flex flex-col justify-center items-center lg:mt-24">
         <div className="text-black text-center">
-          <h1 className="l-title text-5xl mx-4 lg:mx-96 text-black relative">
+          <h3 className="l-title text-5xl mx-4 lg:mx-96 text-black relative">
             <b>Reinventing</b>
-          </h1>
-          <h1 className="text-5xl mx-4 lg:mx-96 text-black">the Conference</h1>
+          </h3>
+          <h3 className="text-5xl mx-4 lg:mx-96 text-black">the Conference</h3>
           <p className="text-xl mt-5 mx-4">
             Progress on SDG Indicators in 707 districts of India (Midline
             Assessment using NFHS 2016 and 2021)
@@ -253,9 +253,9 @@ const SDGpage = () => {
       width={200}
       height={200}
     />
-    <h1 className="text-xl text-black">
+    <h3 className="text-xl text-black">
       <b>Access To Basic Services</b>
-    </h1>
+    </h3>
   </div>
 
   <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
@@ -266,9 +266,9 @@ const SDGpage = () => {
       width={200}
       height={200}
     />
-    <h1 className="text-xl text-black">
+    <h3 className="text-xl text-black">
       <b>Wasting And Overweight Children</b>
-    </h1>
+    </h3>
   </div>
 
   <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
@@ -279,9 +279,9 @@ const SDGpage = () => {
       width={200}
       height={200}
     />
-    <h1 className="text-xl text-black">
+    <h3 className="text-xl text-black">
       <b>Anaemia</b>
-    </h1>
+    </h3>
   </div>
 </div>
 
@@ -294,9 +294,9 @@ const SDGpage = () => {
       width={200}
       height={200}
     />
-    <h1 className="text-xl text-black">
+    <h3 className="text-xl text-black">
       <b>Child Marriage</b>
-    </h1>
+    </h3>
   </div>
 
   <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
@@ -307,9 +307,9 @@ const SDGpage = () => {
       width={200}
       height={200}
     />
-    <h1 className="text-xl text-black">
+    <h3 className="text-xl text-black">
       <b>Partner Violence</b>
-    </h1>
+    </h3>
   </div>
 
   <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
@@ -320,9 +320,9 @@ const SDGpage = () => {
       width={200}
       height={200}
     />
-    <h1 className="text-xl text-black">
+    <h3 className="text-xl text-black">
       <b>Tobacco Use</b>
-    </h1>
+    </h3>
   </div>
 </div>
 
@@ -335,9 +335,9 @@ const SDGpage = () => {
       width={200}
       height={200}
     />
-    <h1 className="text-xl text-black">
+    <h3 className="text-xl text-black">
       <b>Modern Contraceptive Use</b>
-    </h1>
+    </h3>
   </div>
 </div>
 </div>

@@ -3,12 +3,21 @@ import Header from "../Shared/Header"
 import Footer from "../Shared/Footer"
 import SDGpage from "./SDGpage"
 import SDG02page from "./SDG02page"
-
+import Seo from "../SeoComponents/Seo"
 
 const index = () => {
+  const title = "SDG"
+  const description =" Arrive at stakeholder consensus on how to achieve SDG 2030targets through emulating good practices Entrepreneur network with significant reach and impact and  capability to accelerate SDGs through social"
+  const path = "https://catalysingsocialimpact.in/sdg.html"
+  const metaImage = ""
   return (
     <>
-      
+      <Seo
+        title={title}
+        description={description}
+        path={path}
+        metaImage={metaImage}
+      />
       <SDGpage />
       <SDG02page />
       

@@ -3,21 +3,21 @@ const Contributepage = () => {
   return (
     <>
       <div className="mx-5 mt-52">
-        <p className="text-[#7E3F98] font-semibold text-4xl">
+        <h1 className="text-[#7E3F98] font-semibold text-4xl">
           How can you contribute?
-        </p>
-        <p className="mt-5">
+        </h1>
+        <h2 className="mt-5 text-md">
           Catalysing Social Impact [CSI] is a space for everyone. Whether you
           are a thinker, doer, investor or just an observer, we have
           opportunities for everyone to come together to ignite positive changes
           in the field of social impact through strategic initiatives.
-        </p>
-        <p className="font-semibold mt-5">Here is how you can contribute:</p>
+        </h2>
+        <h3 className="font-semibold mt-5">Here is how you can contribute:</h3>
         <ul className="ms-5 space-y-2 list-disc ps-4 mt-5">
           <li>
             <b>
         
-              Non-Governmental Organisations and Civil Society Organisations:{" "}
+              Non-Governmental Organisations and Civil Society Organisations:
             </b>
             NGOs and CSOs can play a vital role by engaging as collaborators and
             enhancing the reach of CSI 2024, bringing in key stakeholders and

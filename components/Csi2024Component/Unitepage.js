@@ -18,10 +18,10 @@ const Unitepage = () => {
         </div>
 
         <div className=" p-4  col-span-1 lg:mx-6 mt-10">
-          <h1 className="text-4xl ">
+          <h3 className="text-4xl ">
             Unite. Innovate. Act: Shape India&rsquo;s Sustainable Future at the SDG
             Conclave!
-          </h1>
+          </h3>
           <ul className="list-disc p-4 space-y-2 ">
             <li>
               This powerful platform brings together leading minds from across
@@ -59,7 +59,7 @@ const Unitepage = () => {
         </div>
 
         <div className=" p-4  col-span-1 mx-6 mt-10">
-          <h1 className="text-4xl ">SDG Action Lab</h1>
+          <h3 className="text-4xl ">SDG Action Lab</h3>
           <ul className="list-disc p-4 space-y-2 ">
             <li>
               As we approach 2030, the urgency to foster an environment
@@ -87,7 +87,7 @@ const Unitepage = () => {
         </div>
 
         <div className=" p-4  col-span-1 mx-6 mt-10">
-          <h1 className="text-4xl ">Learning Corridor</h1>
+          <h3 className="text-4xl ">Learning Corridor</h3>
           <ul className="list-disc p-4 space-y-2 ">
             <li>
               Uncover India&rsquo;s path to a sustainable future at the SDG Learning
