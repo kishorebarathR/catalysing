@@ -5,6 +5,7 @@ import React from "react"
 const Footerpage = () => {
   return (
     <>
+    <div className="mt-24">
       <div className="bg-[#7E3F98] grid grid-cols-1 md:grid-cols-2 border-b border-white-500 p-3 ">
         <div className="p-5 ">
           <Image
@@ -98,6 +99,7 @@ const Footerpage = () => {
             </div>
           </div>
         </nav>
+      </div>
       </div>
     </>
   )
