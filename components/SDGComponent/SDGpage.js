@@ -243,103 +243,106 @@ const SDGpage = () => {
           </p>
         </div>
       </div>
-
+      <div className="">
       <div className="lg:flex flex-row justify-center mt-14 ">
-        <div className="flex flex-col items-center justify-start lg:w-1/3  mt-10 ">
-          <Image
-            className="w-32"
-            src="/images/icon-4.png"
-            alt="image description"
-            width={200}
-            height={200}
-          />
-          <h1 className="text-xl text-black">
-            <b>Access To Basic Services</b>
-          </h1>
-        </div>
+  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
+    <Image
+      className="w-32"
+      src="/images/icon-4.png"
+      alt="image description"
+      width={200}
+      height={200}
+    />
+    <h1 className="text-xl text-black">
+      <b>Access To Basic Services</b>
+    </h1>
+  </div>
 
-        <div className="flex flex-col items-center justify-start lg:w-1/3  mt-10">
-          <Image
-            className="w-32"
-            src="/images/icon-5.png"
-            alt="image description"
-            width={200}
-            height={200}
-          />
-          <h1 className="text-xl text-black">
-            <b>Wasting And Overweight Children</b>
-          </h1>
-        </div>
+  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
+    <Image
+      className="w-32"
+      src="/images/icon-5.png"
+      alt="image description"
+      width={200}
+      height={200}
+    />
+    <h1 className="text-xl text-black">
+      <b>Wasting And Overweight Children</b>
+    </h1>
+  </div>
 
-        <div className="flex flex-col items-center justify-start lg:w-1/3  mt-10">
-          <Image
-            className="w-32"
-            src="/images/icon-6.png"
-            alt="image description"
-            width={200}
-            height={200}
-          />
-          <h1 className="text-xl text-black">
-            <b>Anaemia</b>
-          </h1>
-        </div>
-      </div>
+  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
+    <Image
+      className="w-32"
+      src="/images/icon-6.png"
+      alt="image description"
+      width={200}
+      height={200}
+    />
+    <h1 className="text-xl text-black">
+      <b>Anaemia</b>
+    </h1>
+  </div>
+</div>
 
-      <div className="lg:flex flex-row justify-center mt-14 ">
-        <div className="flex flex-col items-center justify-start lg:w-1/3  mt-10">
-          <Image
-            className="w-32"
-            src="/images/icon-7.png"
-            alt="image description"
-            width={200}
-            height={200}
-          />
-          <h1 className="text-xl text-black">
-            <b>Child Marriage</b>
-          </h1>
-        </div>
+<div className="lg:flex flex-row justify-center mt-14 border border-gray-400 border-dotted">
+  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
+    <Image
+      className="w-32"
+      src="/images/icon-7.png"
+      alt="image description"
+      width={200}
+      height={200}
+    />
+    <h1 className="text-xl text-black">
+      <b>Child Marriage</b>
+    </h1>
+  </div>
 
-        <div className="flex flex-col items-center justify-start lg:w-1/3  mt-10">
-          <Image
-            className="w-32"
-            src="/images/icon-8.png"
-            alt="image description"
-            width={200}
-            height={200}
-          />
-          <h1 className="text-xl text-black">
-            <b>Partner Violence</b>
-          </h1>
-        </div>
+  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
+    <Image
+      className="w-32"
+      src="/images/icon-8.png"
+      alt="image description"
+      width={200}
+      height={200}
+    />
+    <h1 className="text-xl text-black">
+      <b>Partner Violence</b>
+    </h1>
+  </div>
 
-        <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
-          <Image
-            className="w-32"
-            src="/images/icon-9.png"
-            alt="image description"
-            width={200}
-            height={200}
-          />
-          <h1 className="text-xl text-black">
-            <b>Tobacco Use</b>
-          </h1>
-        </div>
-      </div>
+  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
+    <Image
+      className="w-32"
+      src="/images/icon-9.png"
+      alt="image description"
+      width={200}
+      height={200}
+    />
+    <h1 className="text-xl text-black">
+      <b>Tobacco Use</b>
+    </h1>
+  </div>
+</div>
 
-      <div className="flex flex-row justify-center mt-14 ">
-        <div className="flex flex-col items-center justify-start w-1/3  mt-10">
-          <Image
-            className="w-32"
-            src="/images/icon-10.png"
-            alt="image description"
-            width={200}
-            height={200}
-          />
-          <h1 className="text-xl text-black">
-            <b>Modern Contraceptive Use</b>
-          </h1>
-        </div>
-      </div>
+<div className="flex flex-row justify-center mt-14 ">
+  <div className="flex flex-col items-center justify-start w-1/3 mt-10 ">
+    <Image
+      className="w-32"
+      src="/images/icon-10.png"
+      alt="image description"
+      width={200}
+      height={200}
+    />
+    <h1 className="text-xl text-black">
+      <b>Modern Contraceptive Use</b>
+    </h1>
+  </div>
+</div>
+</div>
+
+
     </>
   )
 }

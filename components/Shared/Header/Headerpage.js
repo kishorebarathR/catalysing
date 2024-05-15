@@ -164,7 +164,7 @@ const Homepage = () => {
                         </li>
                       </ul>
                     </li>
-                    <li className="bg-white">
+                    <li className="bg-white ">
                       <Link
                         href="csi-2019"
                         className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
@@ -172,7 +172,7 @@ const Homepage = () => {
                         CSI 2019
                       </Link>
                     </li>
-                    <li className="bg-white mt-8">
+                    <li className="bg-white ">
                       <Link
                         href="contribute"
                         className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"

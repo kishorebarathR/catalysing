@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react"
 import { initFlowbite } from "flowbite"
 import Image from "next/image"
+import Link from "next/link"
 
 const Csi2019Compo = () => {
   const [isShow, setIsShow] = useState(false)
@@ -1027,13 +1028,15 @@ const Csi2019Compo = () => {
       </div>
 
       <div className="text-center mt-10 mb-10">
-        <a
-          href="CSI2024"
-          className="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
-        >
-          CSI 2019 Report
-        </a>
-      </div>
+  <a
+    href="/csi-2019-report.pdf"
+    download
+    className="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
+  >
+    CSI 2019 Report
+  </a>
+</div>
+
     </>
   )
 }
