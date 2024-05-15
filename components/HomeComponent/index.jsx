@@ -1,15 +1,24 @@
+"use client"
 import React from "react"
 import Homepage from "./Homepage"
 import Aboutpage from "./Aboutpage"
 
-const index = () => {
+import Seo from "../SeoComponents/Seo"
 
-  const metadata = {
-    title: "1st - 2nd August, 2024",
-    description: "Social impact catalysis is the catalyst",
-  }
+const index = () => {
+  const title = "CSI"
+  const description = " Social impact catalysis is the catalyst for a ripple effect of positive change, transcending boundaries and leaving a legacy of hope.The first forum was held in 2019 using the Solut"
+  const path = "https://catalysingsocialimpact.in/"
+  const metaImage = ""
+
   return (
     <>
+      <Seo
+        title={title}
+        description={description}
+        path={path}
+        metaImage={metaImage}
+      />
       <Homepage />
       <Aboutpage />
     </>

@@ -6,7 +6,6 @@ import Contributepage from "./Contributepage"
 const index = () => {
   return (
     <>
-      
       <Contributepage />
     </>
   )
