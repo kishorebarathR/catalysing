@@ -2,15 +2,18 @@
 import Image from "next/image"
 import React, { useState } from "react"
 import Link from "next/link"
-
 const Homepage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [activeLink, setActiveLink] = useState(null)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
-  return (
+  const handleLinkClick = (index) => {
+    setActiveLink(index)
+  }
+    return (
     <div className="z-10">
       <div className="py-5 flex fixed inset-0 h-[6em] top-6 w-[98%] mx-auto rounded-lg bg-white justify-between">
         <Link href="/" className=" content-center bg-white rounded-lg">
