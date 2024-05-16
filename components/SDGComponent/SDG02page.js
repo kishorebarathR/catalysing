@@ -8,7 +8,7 @@ const SDG02page = () => {
         <div className="text-black text-center">
           <p className="text-3xl mt-5 mx-4">
             India’s Million Missions - Understanding the work <p></p>of 643 NPOs
-            in 75 Years of India
+            in 75 Years of India.
           </p>
         </div>
       </div>
