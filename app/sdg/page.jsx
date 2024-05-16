@@ -4,7 +4,8 @@ import SdgComponents from "../../components/SdgComponent"
 const page = () => {
   return (
     <>
-      <SdgComponents />
+      {/* <SdgComponents /> */}
+      this is test page
     </>
   )
 }
