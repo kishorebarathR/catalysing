@@ -1,7 +1,12 @@
 import React from "react"
+import SdgComponents from "../../components/SdgComponent"
 
 const page = () => {
-  return <div>This is SDG PropTypes.resetWarningCache()</div>
+  return (
+    <>
+      <SdgComponents />
+    </>
+  )
 }
 
 export default page
