@@ -1,8 +1,8 @@
 import React from "react"
 import Header from "../Shared/Header"
 import Footer from "../Shared/Footer"
-import SDGpage from "./SDGpage"
-import SDG02page from "./SDG02page"
+import SDGpage from "./Sdgpage"
+import SDG02page from "./Sdg02page"
 import Seo from "../SeoComponents/Seo"
 
 const index = () => {

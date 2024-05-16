@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 
-const SDGpage = () => {
+const Sdgpage = () => {
   return (
     <>
       <div className="bg-[#D3BDDC]">
@@ -347,4 +347,4 @@ const SDGpage = () => {
   )
 }
 
-export default SDGpage
+export default Sdgpage

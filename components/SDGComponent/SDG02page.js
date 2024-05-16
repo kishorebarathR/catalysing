@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 
-const SDG02page = () => {
+const Sdg02page = () => {
   return (
     <>
       <div className="lg:flex flex-col justify-center items-center mt-24  ">
@@ -15,40 +15,76 @@ const SDG02page = () => {
 
       <div className="lg:flex flex-row justify-center mt-14 space-x-6 px-5 ">
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/1.png" alt="image description" width={200} height={200} />
+          <Image
+            className="p-1"
+            src="/images/1.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44   text-center">
             <p className="bg-yellow-300 mt-4  ">31%</p>
           </div>
         </div>
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/2.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/2.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">17%</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/3.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/3.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">45%</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/4.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/4.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">51%</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/5.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/5.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">35%</p>
           </div>
         </div>
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image class="p-1" src="/images/6.png" alt="image description" width={200} height={200}/>
+          <Image
+            class="p-1"
+            src="/images/6.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">18%</p>
           </div>
@@ -57,40 +93,76 @@ const SDG02page = () => {
 
       <div className="lg:flex flex-row justify-center mt-4 space-x-6 px-5 ">
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/7.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/7.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44   text-center">
             <p className="bg-yellow-300 mt-4  ">1%</p>
           </div>
         </div>
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/8.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/8.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">17%</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/9.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/9.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">3%</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/10.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/10.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">17%</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/11.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/11.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">8%</p>
           </div>
         </div>
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/12.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/12.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">2%</p>
           </div>
@@ -99,34 +171,64 @@ const SDG02page = () => {
 
       <div className="lg:flex flex-row justify-center mt-4 space-x-6 px-5 ">
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/13.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/13.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44   text-center">
             <p className="bg-yellow-300 mt-4  ">15%</p>
           </div>
         </div>
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/14.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/14.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">1%</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/15.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/15.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">2%</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/16.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/16.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">5%</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-start lg:w-1/6  mt-10">
-          <Image className="p-1" src="/images/17.png" alt="image description" width={200} height={200}/>
+          <Image
+            className="p-1"
+            src="/images/17.png"
+            alt="image description"
+            width={200}
+            height={200}
+          />
           <div className="text-xl text-black w-44 text-center">
             <p className="bg-yellow-300 mt-4 ">12%</p>
           </div>
@@ -158,7 +260,8 @@ const SDG02page = () => {
               className="ms-3 rounded-2xl w-full h-full"
               src="/images/who-what.png"
               alt="image description"
-              width={200} height={200}
+              width={200}
+              height={200}
             />
           </div>
           <div className="text-black ms-6 mt-2">
@@ -225,13 +328,13 @@ const SDG02page = () => {
               className="lg:w-full  lg:ms-44 mt-5"
               src="/images/sdg-logo-lg.png"
               alt="image description"
-              width={200} height={200}
+              width={200}
+              height={200}
             />
           </div>
         </div>
       </div>
-     
-     
+
       <div className="mx-5">
         <div className="flex flex-row justify-start mt-14 space-x-6 px-5 ">
           <div className="lg:flex items-start mt-10">
@@ -239,7 +342,8 @@ const SDG02page = () => {
               className="w-40 p-2"
               src="/images/innovative-financing.png"
               alt="image description"
-              width={200} height={200}
+              width={200}
+              height={200}
             />
             <div className="flex flex-col justify-start ml-4 mt-5">
               <div className="text-4xl font-semibold text-black">
@@ -264,7 +368,8 @@ const SDG02page = () => {
               className="w-40 p-2"
               src="/images/growth.png"
               alt="image description"
-              width={200} height={200}
+              width={200}
+              height={200}
             />
             <div className="flex flex-col justify-start ml-4 mt-5">
               <div className="text-4xl font-semibold text-black">
@@ -288,7 +393,8 @@ const SDG02page = () => {
               className="w-40 p-2"
               src="/images/development.png"
               alt="image description"
-              width={200} height={200}
+              width={200}
+              height={200}
             />
             <div className="flex flex-col justify-start ml-4 mt-5">
               <div className="text-3xl font-semibold text-black">
@@ -312,7 +418,8 @@ const SDG02page = () => {
               className="w-40 p-2"
               src="/images/change.png"
               alt="image description"
-              width={200} height={200}
+              width={200}
+              height={200}
             />
             <div className="lg:flex flex-col justify-start ml-4 mt-5">
               <div className="text-3xl font-semibold text-black">
@@ -332,7 +439,13 @@ const SDG02page = () => {
 
         <div className="lg:flex flex-row justify-start  space-x-5 ">
           <div className="lg:flex items-start mt-10">
-            <Image className="w-40  p-2" src="/images/scale.png" alt="image description" width={200} height={200}/>
+            <Image
+              className="w-40  p-2"
+              src="/images/scale.png"
+              alt="image description"
+              width={200}
+              height={200}
+            />
             <div className="flex flex-col justify-start ml-4 mt-5">
               <div class="text-3xl font-semibold text-black">
                 <p className="mt-4 ">Impact at Scale</p>
@@ -354,9 +467,13 @@ const SDG02page = () => {
       <div className="lg:flex justify-center items-center h-full mt-10">
         <div className="lg:flex flex-col lg:flex-row mt-10">
           <div className="lg:w-1/2 ">
-            <Image className=" w-full h-full"
-             src="/images/pcl-3.png"
-              alt="image description" width={200} height={200}/>
+            <Image
+              className=" w-full h-full"
+              src="/images/pcl-3.png"
+              alt="image description"
+              width={200}
+              height={200}
+            />
           </div>
 
           <div className="ml-4 lg:w-1/2 lg:px-14">
@@ -369,7 +486,8 @@ const SDG02page = () => {
                 className="mr-3"
                 src="/images/icon-11.png"
                 alt="image description"
-                width={200} height={200}
+                width={200}
+                height={200}
               />
               <div>
                 <p className="font-semibold text-xl ">Gain Insights:</p>
@@ -384,7 +502,8 @@ const SDG02page = () => {
                 className="mr-3"
                 src="/images/icon-12.png"
                 alt="image description"
-                width={200} height={200}
+                width={200}
+                height={200}
               />
               <div>
                 <p className="font-semibold text-xl ">
@@ -401,7 +520,8 @@ const SDG02page = () => {
                 className="mr-3"
                 src="/images/icon-13.png"
                 alt="image description"
-                width={200} height={200}
+                width={200}
+                height={200}
               />
               <div>
                 <p className="text-xl font-semibold">Envision Tomorrow:</p>
@@ -429,4 +549,4 @@ const SDG02page = () => {
   )
 }
 
-export default SDG02page
+export default Sdg02page
