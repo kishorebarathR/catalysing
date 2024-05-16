@@ -2,8 +2,8 @@ import { BsThreeDotsVertical } from "react-icons/bs"
 const Form = () => {
   return (
     <>
-      <div class="text-center mt-44 ">
-        <div class=" lg:m-10">
+      <div class="text-center custom-container ">
+        <div class=" lg:m-5">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdxv50HE-LWzfrK_MNPUfb_P5fH1QdWzijqCf6gkpdDP7_Ajg/viewform?embedded=true"
             class="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"

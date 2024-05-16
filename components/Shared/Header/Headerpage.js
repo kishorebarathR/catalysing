@@ -11,8 +11,8 @@ const Homepage = () => {
   }
 
   return (
-    <div className="">
-      <div className="py-5 z-50 flex fixed inset-0 h-[6em] top-6 w-[95%] mx-auto rounded-lg bg-white justify-between">
+    <div className="z-10">
+      <div className="py-5 flex fixed inset-0 h-[6em] top-6 w-[98%] mx-auto rounded-lg bg-white justify-between">
         <Link href="/" className=" content-center bg-white rounded-lg">
           <Image
             className="w-full h-[58px] "
@@ -55,7 +55,7 @@ const Homepage = () => {
                       </li>
                       <li>
                         <Link
-                          href="SDG"
+                          href="sdg"
                           className="block py-2 px-4 text-gray-800 hover:bg-gray-100 md:hover:text-purple-700"
                         >
                           SDG
@@ -73,7 +73,7 @@ const Homepage = () => {
                   </li>
                   <li className="bg-white">
                     <Link
-                      href="contribute"
+                      href="how-contribute"
                       className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     >
                       How can you contribute?
@@ -81,7 +81,7 @@ const Homepage = () => {
                   </li>
                   <li className="bg-white">
                     <Link
-                      href="signup"
+                      href="interest-form"
                       className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     >
                       Sign Up
@@ -156,7 +156,7 @@ const Homepage = () => {
                         </li>
                         <li>
                           <Link
-                            href="SDG"
+                            href="sdg"
                             className="block py-2 px-4 text-gray-800 hover:bg-gray-100"
                           >
                             SDG
@@ -164,7 +164,7 @@ const Homepage = () => {
                         </li>
                       </ul>
                     </li>
-                    <li className="bg-white ">
+                    <li className="bg-white mt-24">
                       <Link
                         href="csi-2019"
                         className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
@@ -174,7 +174,7 @@ const Homepage = () => {
                     </li>
                     <li className="bg-white ">
                       <Link
-                        href="contribute"
+                        href="how-contribute"
                         className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                       >
                         How can you contribute?
@@ -182,7 +182,7 @@ const Homepage = () => {
                     </li>
                     <li className="bg-white">
                       <Link
-                        href="signup"
+                        href="interest-form"
                         className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                       >
                         Sign Up

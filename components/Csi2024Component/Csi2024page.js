@@ -4,7 +4,7 @@ import Image from "next/image"
 const Csi2024page = () => {
   return (
     <>
-      <div className="lg:grid grid-cols-2 mx-10 rounded-lg-5 lg:mt-44">
+      <div className="lg:grid grid-cols-2 mx-5 rounded-lg-5 custom-container">
         <div className="rounded-lg-1">
           <Image
             className="w-full bg-white"
@@ -106,7 +106,7 @@ const Csi2024page = () => {
       </div>
 
       <div className="lg:flex justify-center items-center h-full  ">
-        <div className="flex flex-col lg:flex-row mt-32">
+        <div className="flex flex-col-reverse lg:flex-row mt-32">
           <div className="text-white lg:w-1/2 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:start-20  lg:mt-24">
               <div class="w-full">

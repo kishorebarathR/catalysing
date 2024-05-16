@@ -2,7 +2,7 @@ import Image from "next/image"
 const Contributepage = () => {
   return (
     <>
-      <div className="mx-5 mt-40">
+      <div className="mx-5 custom-container">
         <h1 className="text-[#7E3F98] font-semibold text-4xl">
           How can you contribute?
         </h1>
@@ -56,7 +56,7 @@ const Contributepage = () => {
 
       <div className="text-center mt-10">
         <a
-          href="signup"
+          href="interest-form"
           className="focus:outline-none text-violet-600 bg-[#F3D479] hover:bg-[#7e3f98] hover:text-yellow-200 focus:ring-4 focus:ring-yellow-200 font-normal rounded-3xl text-sm px-14 py-4 me-2 mb-14 dark:focus:ring-yellow-900"
         >
           Interest Form: CSI 2024

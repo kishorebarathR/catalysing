@@ -4,77 +4,79 @@ import Image from "next/image"
 const SDGpage = () => {
   return (
     <>
-      <div className="lg:flex justify-center items-center mt-32 ">
+      <div className="bg-[#D3BDDC]">
+        <div className="lg:flex justify-center items-center custom-container ">
+          <div className="flex flex-col lg:flex-row  justify-center items-center  ">
+            <div className="text-white ">
+              <h1 className="text-5xl  text-black ">
+                <b>Welcome</b> to the
+              </h1>
+              <h3 className="l-title z-10 text-5xl text-black relative">
+                <b>SDG Action Labs</b>
+              </h3>
+            </div>
+            <div>
+              <Image
+                className="w-full lg:h-[700px] "
+                src="/images/sdg-placeholder.png"
+                alt="image description"
+                width={200}
+                height={200}
+              />
+            </div>
+          </div>
+        </div>
         <div className="flex flex-col lg:flex-row  justify-center items-center  ">
-          <div className="text-white ">
-            <h1 className="text-5xl  text-black ">
-              <b>Welcome</b> to the
-            </h1>
-            <h3 className="l-title text-5xl text-black relative">
+          <div className="flex justify-center items-center lg:mt-10 mb-5 ">
+            <div>
+              <Image
+                className="w-28 lg:mx-3"
+                src="/images/sdg-3.svg"
+                alt="image description"
+                width={200}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="w-36 lg:mx-3"
+                src="/images/sdg-1.svg"
+                alt="image description"
+                width={200}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="w-36 lg:mx-3"
+                src="/images/sdg-2.svg"
+                alt="image description"
+                width={200}
+                height={200}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col lg:flex-row  justify-center items-center  mt-20">
+          <div className="text-white text-center  ">
+            <h3 className="text-5xl  text-black ">About the</h3>
+            <h3 className="l-title z-10 text-5xl lg:mx-96 text-black relative">
               <b>SDG Action Labs</b>
             </h3>
           </div>
-          <div>
-            <Image
-              className="w-full lg:h-[700px] "
-              src="/images/sdg-placeholder.png"
-              alt="image description"
-              width={200}
-              height={200}
-            />
-          </div>
         </div>
-      </div>
-      <div className="flex flex-col lg:flex-row  justify-center items-center  ">
-        <div className="flex justify-center items-center lg:mt-10 mb-5 ">
-          <div>
-            <Image
-              className="w-28 lg:mx-3"
-              src="/images/sdg-3.svg"
-              alt="image description"
-              width={200}
-              height={200}
-            />
+        <div className="container mx-auto lg:p-5 mt-6">
+          <div className="text-black text-center lg:text-left">
+            <p className="p-5 lg:mx-32">
+              As we approach 2030, the urgency to foster an environment
+              conducive to transformative social enterprises, equitable resource
+              mobilisation, and locally-led development has never been more
+              evident. The Sustainable Development Goals (SDGs) demand our
+              collective action for lasting impact. Enter the SDG Action Labs, a
+              visionary platform that shapes the narratives for change.
+            </p>
           </div>
-          <div>
-            <Image
-              className="w-36 lg:mx-3"
-              src="/images/sdg-1.svg"
-              alt="image description"
-              width={200}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="w-36 lg:mx-3"
-              src="/images/sdg-2.svg"
-              alt="image description"
-              width={200}
-              height={200}
-            />
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col lg:flex-row  justify-center items-center  mt-20">
-        <div className="text-white text-center  ">
-          <h3 className="text-5xl  text-black ">About the</h3>
-          <h3 className="l-title text-5xl lg:mx-96 text-black relative">
-            <b>SDG Action Labs</b>
-          </h3>
-        </div>
-      </div>
-      <div className="container mx-auto lg:p-5 mt-6">
-        <div className="text-black text-center lg:text-left">
-          <p className="p-5 lg:mx-32">
-            As we approach 2030, the urgency to foster an environment conducive
-            to transformative social enterprises, equitable resource
-            mobilisation, and locally-led development has never been more
-            evident. The Sustainable Development Goals (SDGs) demand our
-            collective action for lasting impact. Enter the SDG Action Labs, a
-            visionary platform that shapes the narratives for change.
-          </p>
         </div>
       </div>
 
@@ -178,7 +180,7 @@ const SDGpage = () => {
       </div>
 
       <div className="lg:flex justify-center items-center h-full mt-14">
-        <div className="flex flex-col lg:flex-row mt-10">
+        <div className="flex flex-col-reverse lg:flex-row mt-10">
           <div className="  lg:w-1/2 mt-20 lg:ms-24">
             <h3 className="text-black text-4xl ">
               <b>Outcomes</b>
@@ -244,105 +246,103 @@ const SDGpage = () => {
         </div>
       </div>
       <div className="">
-      <div className="lg:flex flex-row justify-center mt-14 ">
-  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
-    <Image
-      className="w-32"
-      src="/images/icon-4.png"
-      alt="image description"
-      width={200}
-      height={200}
-    />
-    <h3 className="text-xl text-black">
-      <b>Access To Basic Services</b>
-    </h3>
-  </div>
+        <div className="lg:flex flex-row items-center justify-center mt-14  ">
+          <div className="flex flex-col items-center justify-center lg:w-1/3">
+            <Image
+              className="w-32"
+              src="/images/icon-4.png"
+              alt="image description"
+              width={200}
+              height={200}
+            />
+            <h3 className="text-xl text-black text-center pt-3">
+              <b>Access To Basic Services</b>
+            </h3>
+          </div>
 
-  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
-    <Image
-      className="w-32"
-      src="/images/icon-5.png"
-      alt="image description"
-      width={200}
-      height={200}
-    />
-    <h3 className="text-xl text-black">
-      <b>Wasting And Overweight Children</b>
-    </h3>
-  </div>
+          <div className="flex flex-col items-center justify-center lg:w-1/3 border-s  border-e border-dotted border-black p-10">
+            <Image
+              className="w-32"
+              src="/images/icon-5.png"
+              alt="image description"
+              width={200}
+              height={200}
+            />
+            <h3 className="text-xl text-black text-center pt-3">
+              <b>Wasting And Overweight Children</b>
+            </h3>
+          </div>
 
-  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
-    <Image
-      className="w-32"
-      src="/images/icon-6.png"
-      alt="image description"
-      width={200}
-      height={200}
-    />
-    <h3 className="text-xl text-black">
-      <b>Anaemia</b>
-    </h3>
-  </div>
-</div>
+          <div className="flex flex-col items-center justify-start lg:w-1/3 ">
+            <Image
+              className="w-32 "
+              src="/images/icon-6.png"
+              alt="image description"
+              width={200}
+              height={200}
+            />
+            <h3 className="text-xl text-black text-center pt-3">
+              <b>Anaemia</b>
+            </h3>
+          </div>
+        </div>
 
-<div className="lg:flex flex-row justify-center mt-14 border border-gray-400 border-dotted">
-  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
-    <Image
-      className="w-32"
-      src="/images/icon-7.png"
-      alt="image description"
-      width={200}
-      height={200}
-    />
-    <h3 className="text-xl text-black">
-      <b>Child Marriage</b>
-    </h3>
-  </div>
+        <div className="lg:flex flex-row justify-center  lg:border-t border-dotted border-black">
+          <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
+            <Image
+              className="w-32"
+              src="/images/icon-7.png"
+              alt="image description"
+              width={200}
+              height={200}
+            />
+            <h3 className="text-xl text-black pt-3">
+              <b>Child Marriage</b>
+            </h3>
+          </div>
 
-  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
-    <Image
-      className="w-32"
-      src="/images/icon-8.png"
-      alt="image description"
-      width={200}
-      height={200}
-    />
-    <h3 className="text-xl text-black">
-      <b>Partner Violence</b>
-    </h3>
-  </div>
+          <div className="flex flex-col items-center justify-start lg:w-1/3 lg:border-s  lg:border-e border-dotted border-black p-10">
+            <Image
+              className="w-32"
+              src="/images/icon-8.png"
+              alt="image description"
+              width={200}
+              height={200}
+            />
+            <h3 className="text-xl text-black p-3">
+              <b>Partner Violence</b>
+            </h3>
+          </div>
 
-  <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
-    <Image
-      className="w-32"
-      src="/images/icon-9.png"
-      alt="image description"
-      width={200}
-      height={200}
-    />
-    <h3 className="text-xl text-black">
-      <b>Tobacco Use</b>
-    </h3>
-  </div>
-</div>
+          <div className="flex flex-col items-center justify-start lg:w-1/3 mt-10">
+            <Image
+              className="w-32"
+              src="/images/icon-9.png"
+              alt="image description"
+              width={200}
+              height={200}
+            />
+            <h3 className="text-xl text-black pt-3">
+              <b>Tobacco Use</b>
+            </h3>
+          </div>
+        </div>
 
-<div className="flex flex-row justify-center mt-14 ">
-  <div className="flex flex-col items-center justify-start w-1/3 mt-10 ">
-    <Image
-      className="w-32"
-      src="/images/icon-10.png"
-      alt="image description"
-      width={200}
-      height={200}
-    />
-    <h3 className="text-xl text-black">
-      <b>Modern Contraceptive Use</b>
-    </h3>
-  </div>
-</div>
-</div>
-
-
+        <div className="flex flex-row justify-center lg:border-t border-dotted border-black">
+          <div className="flex flex-col items-center justify-start lg:w-1/3 lg:border-s lg:border-e p-10 border-dotted border-black ">
+            <Image
+              className="w-32"
+              src="/images/icon-10.png"
+              alt="image description"
+              width={200}
+              height={200}
+            />
+            <h3 className="text-xl text-black pt-3">
+              <b>Modern Contraceptive Use</b>
+            </h3>
+          </div>
+        </div>
+      </div>
     </>
   )
 }

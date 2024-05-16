@@ -18,7 +18,7 @@ const Csi2019Compo = () => {
 
   return (
     <>
-      <div className=" mx-10 relative mt-44">
+      <div className=" mx-5 relative custom-container">
         <video className="h-full w-full " autoPlay muted loop>
           <source src="/vedio/cphc-for-subtitle.mp4" type="video/mp4" />
         </video>
@@ -147,7 +147,7 @@ const Csi2019Compo = () => {
       </div>
 
       <div className="lg:flex justify-center items-center h-full ">
-        <div className="flex flex-col lg:flex-row lg:mt-60">
+        <div className="flex flex-col-reverse lg:flex-row lg:mt-60">
           <div className="text-white lg:w-1/2 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:start-20 mt-20 ">
               <div className="w-full">
@@ -222,7 +222,7 @@ const Csi2019Compo = () => {
       </div>
 
       <div className="lg:flex justify-center items-center h-full ">
-        <div className="flex flex-col lg:flex-row lg:mt-44">
+        <div className="flex flex-col-reverse lg:flex-row lg:mt-44">
           <div className="text-white lg:w-1/2 ">
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:start-20 mt-20 ">
               <div className="w-full">
@@ -275,7 +275,7 @@ const Csi2019Compo = () => {
             <div className="bg-[#7E3F98] rounded-xl p-9  m-4  relative lg:end-20 ">
               <div className="w-full">
                 <Image
-                  className="lg:ms-64 px-2 w-100 lg:-mt-24"
+                  className="lg:ms-64 px-2 w-40 lg:-mt-24"
                   src="/images/CSI_Government.png"
                   alt="image description"
                   height={200}

@@ -206,11 +206,11 @@ const SDG02page = () => {
         <div className="lg:flex flex-col lg:flex-row lg:-ms-10">
           <div className=" lg:ml-auto lg:w-1/2 ">
             <h3 className="text-5xl text-black">Recognition of the</h3>
-            <h3 className="l-title text-5xl text-black relative mt-3 font-semibold">
+            <h3 className="l-title lg:text-5xl  text-black relative mt-3 font-semibold  ">
               Interconnectedness
             </h3>
             <h3 className="text-5xl text-black mt-3">between the</h3>
-            <h3 className="l-title text-5xl text-black relative mt-2 font-semibold">
+            <h3 className="l-title lg:text-5xl text-black relative mt-2 font-semibold">
               Curated Themes;
             </h3>
             <div>
@@ -222,7 +222,7 @@ const SDG02page = () => {
 
           <div className="ml-auto">
             <Image
-              className="w-full  lg:ms-44 "
+              className="lg:w-full  lg:ms-44 mt-5"
               src="/images/sdg-logo-lg.png"
               alt="image description"
               width={200} height={200}

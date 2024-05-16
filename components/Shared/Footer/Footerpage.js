@@ -74,7 +74,7 @@ const Footerpage = () => {
                       CSI 2024
                     </Link>
                     <Link
-                      href="SDG"
+                      href="sdg"
                       className="block py-2 px-3 text-white bg-violet-700 rounded md:bg-transparent md:text-violet-700 md:p-0 md:dark:text-violet-500 hover:text-green-600"
                       aria-current="page"
                     >
@@ -87,7 +87,7 @@ const Footerpage = () => {
                 <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                   <li className="violet">
                     <Link
-                      href="signup"
+                      href="interest-form"
                       className="block py-2 px-3 text-white bg-violet-700 rounded md:bg-transparent md:text-violet-700 md:p-0 md:dark:text-violet-500 hover:text-green-600"
                       aria-current="page"
                     >
