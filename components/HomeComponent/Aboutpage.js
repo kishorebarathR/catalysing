@@ -17,13 +17,14 @@ const Aboutpage = () => {
           <li>
             The first forum was held in 2019 using the Solutions Circle approach
             - in hybrid and physical spaces in Bengaluru and morphed into the
-              <a
+            <a
               href="https://covidactioncollab.org/"
               target="_blank"
               class="text-blue-500 hover:text-blue-700"
             >
               #COVIDActionCollab
-            </a> for pandemic response during 2020-2022.
+            </a>{" "}
+            for pandemic response during 2020-2022.
           </li>
           <li>
             In 2022, the #COVIDActionCollab further transformed into

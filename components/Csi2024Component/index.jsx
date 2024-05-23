@@ -4,7 +4,7 @@ import Unitepage from "./Unitepage"
 import Seo from "../SeoComponents/Seo"
 
 const index = () => {
-  const title = "CSI 2024|CSI"
+  const title = "CSI 2024 | CSI"
   const description =
     " India&rsquo;s SDG journey is a marathon, not a sprint. While strides in health and clean energy ."
   const path = "https://catalysingsocialimpact.in/"

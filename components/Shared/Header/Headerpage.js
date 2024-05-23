@@ -18,7 +18,12 @@ const Homepage = () => {
   return (
     <div className="z-10">
       <div className="py-5 flex fixed inset-0 h-[6em] top-6 w-[98%] mx-auto rounded-lg bg-white justify-between">
-        <Link href="/" className="content-center bg-white rounded-lg">
+        {/* <Link href="/" className="content-center bg-white rounded-lg"> */}
+        <Link href="/"   className={`block content-center bg-white rounded-lg ${
+                        activeLink === 0 ? "text-purple-700" : ""
+                      }`}
+                      onClick={() => handleLinkClick(0)}
+                    >
           <Image
             className="w-full h-[58px] "
             src="/images/catalysing_logo.png"
@@ -57,7 +62,10 @@ const Homepage = () => {
                       <li>
                         <Link
                           href="csi-2024"
-                          className="block py-2 px-4 text-gray-800 hover:bg-gray-100"
+                          className={`block py-2 px-5 text-gray-900 rounded bg-white md:border-0 ${
+                            activeLink === 5 ? "text-purple-700" : ""
+                          }`}
+                          onClick={() => handleLinkClick(5)}
                         >
                           CSI 2024
                         </Link>
@@ -65,7 +73,10 @@ const Homepage = () => {
                       <li>
                         <Link
                           href="sdg"
-                          className="block py-2 px-4 text-gray-800 hover:bg-gray-100"
+                          className={`block py-2 px-5 text-gray-900 rounded bg-white md:border-0 ${
+                            activeLink === 6 ? "text-purple-700" : ""
+                          }`}
+                          onClick={() => handleLinkClick(6)}
                         >
                           SDG
                         </Link>
