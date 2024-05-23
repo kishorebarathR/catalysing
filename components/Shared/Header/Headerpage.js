@@ -1,22 +1,24 @@
 "use client"
-import Image from "next/image"
-import React, { useState } from "react"
-import Link from "next/link"
+import React, { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+
 const Homepage = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [activeLink, setActiveLink] = useState(null)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState(null);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   const handleLinkClick = (index) => {
-    setActiveLink(index)
-  }
-    return (
+    setActiveLink(index);
+  };
+
+  return (
     <div className="z-10">
       <div className="py-5 flex fixed inset-0 h-[6em] top-6 w-[98%] mx-auto rounded-lg bg-white justify-between">
-        <Link href="/" className=" content-center bg-white rounded-lg">
+        <Link href="/" className="content-center bg-white rounded-lg">
           <Image
             className="w-full h-[58px] "
             src="/images/catalysing_logo.png"
@@ -34,16 +36,20 @@ const Homepage = () => {
                   <li className="bg-white">
                     <Link
                       href="/"
-                      className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-pu dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                      aria-current="page"
+                      className={`block -py-2 -px-8 text-gray-900 rounded bg-white md:border-0 ${
+                        activeLink === 0 ? "text-purple-700" : ""
+                      }`}
+                      onClick={() => handleLinkClick(0)}
                     >
                       Home
                     </Link>
                   </li>
                   <li className="bg-white relative group">
                     <p
-                      href=""
-                      className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                      className={`block -py-2 -px-8 text-gray-900 rounded bg-white md:border-0 ${
+                        activeLink === 1 ? "text-purple-700" : ""
+                      }`}
+                      onClick={() => handleLinkClick(1)}
                     >
                       CSI 2024
                     </p>
@@ -51,7 +57,7 @@ const Homepage = () => {
                       <li>
                         <Link
                           href="csi-2024"
-                          className="block py-2 px-4 text-gray-800 hover:bg-gray-100 md:hover:text-purple-700"
+                          className="block py-2 px-4 text-gray-800 hover:bg-gray-100"
                         >
                           CSI 2024
                         </Link>
@@ -59,7 +65,7 @@ const Homepage = () => {
                       <li>
                         <Link
                           href="sdg"
-                          className="block py-2 px-4 text-gray-800 hover:bg-gray-100 md:hover:text-purple-700"
+                          className="block py-2 px-4 text-gray-800 hover:bg-gray-100"
                         >
                           SDG
                         </Link>
@@ -69,7 +75,10 @@ const Homepage = () => {
                   <li className="bg-white">
                     <Link
                       href="csi-2019"
-                      className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                      className={`block -py-2 -px-8 text-gray-900 rounded bg-white md:border-0 ${
+                        activeLink === 2 ? "text-purple-700" : ""
+                      }`}
+                      onClick={() => handleLinkClick(2)}
                     >
                       CSI 2019
                     </Link>
@@ -77,7 +86,10 @@ const Homepage = () => {
                   <li className="bg-white">
                     <Link
                       href="how-contribute"
-                      className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                      className={`block -py-2 -px-8 text-gray-900 rounded bg-white md:border-0 ${
+                        activeLink === 3 ? "text-purple-700" : ""
+                      }`}
+                      onClick={() => handleLinkClick(3)}
                     >
                       How can you contribute?
                     </Link>
@@ -85,7 +97,10 @@ const Homepage = () => {
                   <li className="bg-white">
                     <Link
                       href="interest-form"
-                      className="block py-2 px-3 text-gray-900 rounded bg-white md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                      className={`block -py-2 -px-8 text-gray-900 rounded bg-white md:border-0 ${
+                        activeLink === 4 ? "text-purple-700" : ""
+                      }`}
+                      onClick={() => handleLinkClick(4)}
                     >
                       Sign Up
                     </Link>
